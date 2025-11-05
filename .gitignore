@@ -51,7 +51,6 @@ coverage/
 # Deployment
 .netlify/
 .vercel/
-.github/
 
 # Yarn
 .yarn/*

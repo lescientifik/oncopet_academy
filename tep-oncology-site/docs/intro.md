@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-slug: /
 ---
 
 # Bienvenue à l'académie TEP en Oncologie

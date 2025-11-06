@@ -174,7 +174,7 @@ Chaque lésion doit être qualifiée selon l'une des catégories suivantes :
 > « Lésion hépatique intensément hyperfixante SUVmax 10,4 ; aspect secondaire. »
 
 :::warning Important
-Cette caractérisation est essentielle pour la qualité du compte rendu et l'aide à la décision clinique. Une simple description anatomique et métrique est insuffisante.
+Cette caractérisation est essentielle pour la qualité du compte rendu et l'aide à la décision clinique. Une simple description d'intensité de fixation est insuffisante.
 :::
 
 ### 5.3 Niveau de détail

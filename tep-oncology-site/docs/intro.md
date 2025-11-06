@@ -1,47 +1,41 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Bienvenue à l'académie TEP en Oncologie
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Bienvenue sur la plateforme de formation et d'enseignement en imagerie TEP pour l'oncologie.
 
-## Getting Started
+## À propos
 
-Get started by **creating a new site**.
+Ce site est destiné aux internes et aux professionnels de santé qui souhaitent se former ou approfondir leurs connaissances en imagerie TEP-scan dans le contexte oncologique.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Contenu disponible
 
-### What you'll need
+### 📚 Cours
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Retrouvez nos supports pédagogiques structurés pour vous accompagner dans votre apprentissage :
 
-## Generate a new site
+- **[Guide de rédaction - Comptes rendus TEP-scan](./cours/redaction-comptes-rendus-tep.md)** : Guide complet pour apprendre à rédiger des comptes rendus de TEP-scan de qualité, incluant les critères PERCIST, le score de Deauville, et les bonnes pratiques professionnelles.
 
-Generate a new Docusaurus site using the **classic template**.
+## Objectifs pédagogiques
 
-The classic template will automatically be added to your project after you run the command:
+Cette plateforme vise à vous aider à :
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- ✅ Maîtriser la rédaction de comptes rendus TEP-scan standardisés
+- ✅ Comprendre et appliquer les critères PERCIST
+- ✅ Identifier correctement les examens de référence (baseline et nadir)
+- ✅ Développer une approche rigoureuse et professionnelle
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Comment utiliser ce site ?
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+1. **Parcourez les cours** dans la section Documentation
+2. **Consultez régulièrement** le blog pour les actualités et cas pratiques
+3. **Pratiquez** en appliquant les principes appris
 
-## Start your site
+---
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+:::tip
+N'hésitez pas à poser des questions et à demander des clarifications !
+:::

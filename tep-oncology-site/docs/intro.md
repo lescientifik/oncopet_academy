@@ -1,47 +1,64 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Bienvenue à l'académie TEP en Oncologie
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**La base de connaissances centralisée pour la TEP en oncologie**
 
-## Getting Started
+## Pourquoi cette plateforme ?
 
-Get started by **creating a new site**.
+Combien de fois avez-vous recherché (et re-recherché) sur le web :
+- Les critères PERCIST ?
+- Le seuil exact pour le score de Deauville ?
+- La durée de fixation physiologique après chimiothérapie ?
+- Les valeurs de SUV normales pour tel ou tel organe ?
+- Les recommandations pour la préparation du patient ?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+**Cette plateforme centralise toutes ces informations au même endroit.**
 
-### What you'll need
+## Vision
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+L'objectif est de construire progressivement **une base de connaissances complète** qui regroupe :
 
-## Generate a new site
+- 📚 **Cours et guides pratiques** : formations structurées sur les différents aspects de la TEP
+- 📊 **Données de référence** : valeurs normales, seuils, critères standardisés
+- 🔍 **Protocoles et recommandations** : préparation patient, injection, acquisition
+- 💡 **Astuces et pièges** : les petits trucs qu'on apprend avec l'expérience
+- 🩺 **Pathologies spécifiques** : particularités par type de cancer
+- 🧪 **Traceurs et radiopharmaceutiques** : FDG et au-delà
+- 📝 **Modèles et check-lists** : pour standardiser les pratiques
 
-Generate a new Docusaurus site using the **classic template**.
+## Contenu actuellement disponible
 
-The classic template will automatically be added to your project after you run the command:
+### 📚 Cours
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- **[Guide de rédaction - Comptes rendus TEP-scan](./cours/redaction-comptes-rendus-tep.md)** : guide complet pour la rédaction des comptes rendus (critères PERCIST, score de Deauville, bonnes pratiques)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+:::info En construction
+Cette plateforme est en cours de développement. De nouvelles ressources seront ajoutées régulièrement.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Vous avez une suggestion de contenu à ajouter ? N'hésitez pas à contribuer !
+:::
 
-## Start your site
+## Objectifs
 
-Run the development server:
+- ✅ **Centraliser** les connaissances et références essentielles
+- ✅ **Standardiser** les pratiques et la terminologie
+- ✅ **Faciliter** l'accès rapide à l'information
+- ✅ **Partager** l'expérience et les bonnes pratiques
+- ✅ **Évoluer** continuellement avec de nouveaux contenus
 
-```bash
-cd my-website
-npm run start
-```
+## Comment utiliser ce site ?
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+1. 🔍 **Recherchez** l'information dont vous avez besoin
+2. 📖 **Consultez** les guides et références
+3. 🔖 **Sauvegardez** la plateforme dans vos favoris pour un accès rapide
+4. 💬 **Partagez** avec vos collègues et collaborez
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+---
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+:::tip Plateforme vivante
+Cette base de connaissances est appelée à grandir et à s'enrichir avec le temps. Revenez régulièrement pour découvrir de nouveaux contenus !
+:::

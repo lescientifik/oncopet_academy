@@ -152,7 +152,32 @@ En lisant votre description, le clinicien doit pouvoir se représenter mentaleme
 Si vous-même ne pouvez pas visualiser le MIP en relisant votre texte, c'est que la description n'est pas bonne.
 :::
 
-### 5.2 Niveau de détail
+### 5.2 Classification obligatoire des lésions
+
+:::danger Règle fondamentale
+Toute lésion décrite dans le compte rendu **DOIT** être caractérisée par une classification.
+
+Il ne suffit pas de documenter une lésion, il faut obligatoirement lui attribuer une caractérisation clinique.
+:::
+
+#### Classifications standardisées
+
+Chaque lésion doit être qualifiée selon l'une des catégories suivantes :
+
+- **Aspect secondaire** : Lésion évocatrice d'une localisation métastatique
+- **Aspect inflammatoire/infectieux** : Hyperfixation en rapport avec un processus inflammatoire ou infectieux
+- **Aspect équivoque** : Lésion dont la nature reste incertaine entre plusieurs hypothèses
+- **Aspect non spécifique** : Hyperfixation sans caractère spécifiquement évocateur
+- **Nature indéterminée** : Réservé aux cas rares où aucune classification ne peut être déterminée
+
+**Exemple de formulation correcte :**
+> « Lésion hépatique intensément hyperfixante SUVmax 10,4 ; aspect secondaire. »
+
+:::warning Important
+Cette caractérisation est essentielle pour la qualité du compte rendu et l'aide à la décision clinique. Une simple description anatomique et métrique est insuffisante.
+:::
+
+### 5.3 Niveau de détail
 
 Trouver le juste équilibre entre synthèse et précision :
 

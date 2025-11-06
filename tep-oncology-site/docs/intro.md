@@ -5,37 +5,60 @@ slug: /
 
 # Bienvenue à l'académie TEP en Oncologie
 
-Bienvenue sur la plateforme de formation et d'enseignement en imagerie TEP pour l'oncologie.
+**La base de connaissances centralisée pour la TEP en oncologie**
 
-## À propos
+## Pourquoi cette plateforme ?
 
-Ce site est destiné aux internes et aux professionnels de santé qui souhaitent se former ou approfondir leurs connaissances en imagerie TEP-scan dans le contexte oncologique.
+Combien de fois avez-vous recherché (et re-recherché) sur le web :
+- Les critères PERCIST ?
+- Le seuil exact pour le score de Deauville ?
+- La durée de fixation physiologique après chimiothérapie ?
+- Les valeurs de SUV normales pour tel ou tel organe ?
+- Les recommandations pour la préparation du patient ?
 
-## Contenu disponible
+**Cette plateforme centralise toutes ces informations au même endroit.**
+
+## Vision
+
+L'objectif est de construire progressivement **une base de connaissances complète** qui regroupe :
+
+- 📚 **Cours et guides pratiques** : formations structurées sur les différents aspects de la TEP
+- 📊 **Données de référence** : valeurs normales, seuils, critères standardisés
+- 🔍 **Protocoles et recommandations** : préparation patient, injection, acquisition
+- 💡 **Astuces et pièges** : les petits trucs qu'on apprend avec l'expérience
+- 🩺 **Pathologies spécifiques** : particularités par type de cancer
+- 🧪 **Traceurs et radiopharmaceutiques** : FDG et au-delà
+- 📝 **Modèles et check-lists** : pour standardiser les pratiques
+
+## Contenu actuellement disponible
 
 ### 📚 Cours
 
-Retrouvez nos supports pédagogiques structurés pour vous accompagner dans votre apprentissage :
+- **[Guide de rédaction - Comptes rendus TEP-scan](./cours/redaction-comptes-rendus-tep.md)** : guide complet pour la rédaction des comptes rendus (critères PERCIST, score de Deauville, bonnes pratiques)
 
-- **[Guide de rédaction - Comptes rendus TEP-scan](./cours/redaction-comptes-rendus-tep.md)** : Guide complet pour apprendre à rédiger des comptes rendus de TEP-scan de qualité, incluant les critères PERCIST, le score de Deauville, et les bonnes pratiques professionnelles.
+:::info En construction
+Cette plateforme est en cours de développement. De nouvelles ressources seront ajoutées régulièrement.
 
-## Objectifs pédagogiques
+Vous avez une suggestion de contenu à ajouter ? N'hésitez pas à contribuer !
+:::
 
-Cette plateforme vise à vous aider à :
+## Objectifs
 
-- ✅ Maîtriser la rédaction de comptes rendus TEP-scan standardisés
-- ✅ Comprendre et appliquer les critères PERCIST
-- ✅ Identifier correctement les examens de référence (baseline et nadir)
-- ✅ Développer une approche rigoureuse et professionnelle
+- ✅ **Centraliser** les connaissances et références essentielles
+- ✅ **Standardiser** les pratiques et la terminologie
+- ✅ **Faciliter** l'accès rapide à l'information
+- ✅ **Partager** l'expérience et les bonnes pratiques
+- ✅ **Évoluer** continuellement avec de nouveaux contenus
 
 ## Comment utiliser ce site ?
 
-1. **Parcourez les cours** dans la section Documentation
-2. **Consultez régulièrement** le blog pour les actualités et cas pratiques
-3. **Pratiquez** en appliquant les principes appris
+1. 🔍 **Recherchez** l'information dont vous avez besoin
+2. 📖 **Consultez** les guides et références
+3. 🔖 **Sauvegardez** la plateforme dans vos favoris pour un accès rapide
+4. 💬 **Partagez** avec vos collègues et collaborez
 
 ---
 
-:::tip
-N'hésitez pas à poser des questions et à demander des clarifications !
+:::tip Plateforme vivante
+Cette base de connaissances est appelée à grandir et à s'enrichir avec le temps. Revenez régulièrement pour découvrir de nouveaux contenus !
 :::

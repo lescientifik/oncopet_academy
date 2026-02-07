@@ -31,9 +31,9 @@ L'objectif est de construire progressivement **une base de connaissances complè
 
 ## Contenu actuellement disponible
 
-### 📚 Cours
+### Pratique clinique
 
-- **[Guide de rédaction - Comptes rendus TEP-scan](./cours/redaction-comptes-rendus-tep.md)** : guide complet pour la rédaction des comptes rendus (critères PERCIST, score de Deauville, bonnes pratiques)
+- **[Guide de rédaction - Comptes rendus TEP-scan](./pratique/redaction-comptes-rendus-tep.md)** : guide complet pour la rédaction des comptes rendus (critères PERCIST, score de Deauville, bonnes pratiques)
 
 :::info En construction
 Cette plateforme est en cours de développement. De nouvelles ressources seront ajoutées régulièrement.

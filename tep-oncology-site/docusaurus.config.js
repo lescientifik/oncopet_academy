@@ -95,7 +95,7 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Actualités', position: 'left'},
           {
             href: 'https://github.com/lescientifik/oncopet_academy',
             label: 'GitHub',
@@ -119,7 +119,7 @@ const config = {
             title: 'Ressources',
             items: [
               {
-                label: 'Blog',
+                label: 'Actualités',
                 to: '/blog',
               },
               {

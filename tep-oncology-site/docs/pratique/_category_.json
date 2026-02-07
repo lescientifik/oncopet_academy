@@ -1,0 +1,12 @@
+{
+  "label": "Pratique clinique",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Pratique clinique",
+    "description": "Guides pratiques : rédaction, scores, protocoles et préparation patient",
+    "slug": "/pratique"
+  }
+}

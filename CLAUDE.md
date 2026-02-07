@@ -10,13 +10,14 @@ TEP Oncology Academy — a French-language medical education documentation site 
 
 ## Commands
 
-All commands run from `tep-oncology-site/`:
+**Toujours utiliser `bun` (pas npm/yarn).** All commands run from `tep-oncology-site/`:
 
 ```bash
-npm start          # Dev server on localhost:3000 (hot-reload)
-npm run build      # Production build (fails on broken links: onBrokenLinks: 'throw')
-npm run serve      # Serve production build locally
-npm run clear      # Clear Docusaurus cache (.docusaurus/)
+bun start          # Dev server on localhost:3000 (hot-reload)
+bun run build      # Production build (fails on broken links: onBrokenLinks: 'throw')
+bun run serve      # Serve production build locally
+bun run clear      # Clear Docusaurus cache (.docusaurus/)
+bun install        # Install dependencies
 ```
 
 Dev server helper scripts (from repo root):
@@ -34,8 +35,8 @@ oncopet_academy/
 ├── tep-oncology-site/          # Docusaurus app (all npm commands run here)
 │   ├── docs/                   # Documentation content (Markdown/MDX)
 │   │   ├── intro.md            # Landing page (/ redirects to /docs/intro)
-│   │   └── cours/              # Course materials
-│   ├── blog/                   # Blog posts (YYYY-MM-DD-title.md format)
+│   │   └── pratique/           # Guides pratiques (rédaction, scores, protocoles)
+│   ├── blog/                   # Actualités (YYYY-MM-DD-title.md format)
 │   ├── src/
 │   │   ├── pages/index.js      # Home page — redirects to /docs/intro
 │   │   └── css/custom.css      # Infima theme overrides (green healthcare palette)
@@ -65,4 +66,98 @@ GitHub Actions workflow (`.github/workflows/deploy.yml`) triggers on:
 - Push to `main` that modifies files in `tep-oncology-site/`
 - Manual workflow dispatch
 
-Pipeline: checkout → Node 20 → `npm ci` → `npm run build` → deploy to GitHub Pages
+Pipeline: checkout → Node 20 → `npm ci` → `npm run build` → deploy to GitHub Pages (CI uses npm; local dev uses bun)
+
+---
+
+## Workflow PubMed → Publication
+
+### Étapes
+
+1. **Discussion du sujet** : l'utilisateur propose un sujet de cours ou une pathologie à documenter
+2. **Recherche PubMed** : utiliser le serveur MCP PubMed pour rechercher les publications pertinentes, guidelines et consensus récents
+3. **Rédaction du draft** : rédiger le cours en Markdown selon le template ci-dessous, en intégrant les références trouvées
+4. **Review collaborative** : l'utilisateur relit, corrige et valide le contenu médical ; itérations jusqu'à validation
+5. **Publication** : commit sur `main` → déploiement automatique via GitHub Actions
+
+### Template de cours
+
+```markdown
+---
+sidebar_position: X
+title: "Titre du cours"
+description: "Description courte pour le SEO et les métadonnées"
+---
+
+# Titre du cours
+
+**Auteurs : Dr T. Henry, Claude (assistant IA)**
+
+---
+
+## 1. Introduction
+
+Contexte clinique, épidémiologie, place de la TEP.
+
+## 2. [Section principale]
+
+Contenu structuré avec sous-sections.
+
+## 3. [Section suivante]
+
+...
+
+## N. Points clés
+
+:::tip Points clés
+- Point 1
+- Point 2
+- Point 3
+:::
+
+---
+
+## Références
+
+1. Auteur1 AB, Auteur2 CD, Auteur3 EF, et al. Titre de l'article. *Nom du Journal*. Année;Volume(Numéro):Pages.
+   [PubMed](https://pubmed.ncbi.nlm.nih.gov/PMID/)
+```
+
+## Convention de références
+
+- **Style Vancouver** (standard médical)
+- Max 3 auteurs avant "et al."
+- Nom du journal en *italique*
+- Lien PubMed cliquable à la fin de chaque référence
+- Format du lien : `https://pubmed.ncbi.nlm.nih.gov/PMID/`
+
+**Exemple :**
+```
+1. Barrington SF, Mikhaeel NG, Kostakoglu L, et al. Role of imaging in the staging
+   and response assessment of lymphoma. *J Clin Oncol*. 2014;32(27):3048-3058.
+   [PubMed](https://pubmed.ncbi.nlm.nih.gov/25113771/)
+```
+
+## Guide de placement des cours
+
+| Dossier | Contenu | Exemples |
+|---------|---------|----------|
+| `docs/pratique/` | Guides pratiques, rédaction, scores, protocoles, préparation patient | Rédaction CR, check-lists, protocoles d'injection |
+
+> Les autres catégories (pathologies, radiopharmaceutiques, référence) seront créées à la demande lors de l'ajout du premier cours correspondant. Chaque nouvelle catégorie nécessite un `_category_.json` avec label, position, et description.
+
+## Checklist de publication
+
+Avant chaque commit de nouveau contenu :
+
+- [ ] Le cours suit le template (frontmatter, structure, références)
+- [ ] Les références sont au format Vancouver avec liens PubMed
+- [ ] Les liens internes sont valides (vérifier avec `bun run build`)
+- [ ] Le contenu médical a été validé par Dr T. Henry
+- [ ] Le `sidebar_position` est cohérent avec les autres cours du dossier
+- [ ] `docs/intro.md` est mis à jour si un nouveau cours ou une nouvelle catégorie est ajouté(e)
+
+## Auteurs
+
+- **Dr T. Henry** (`thenry`) — Médecin nucléaire, auteur principal et validateur du contenu médical
+- **Claude** (`claude`) — Assistant IA, aide à la recherche bibliographique et à la rédaction

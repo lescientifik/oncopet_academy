@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+veille:
+  label: Veille scientifique
+  permalink: /veille
+  description: Articles et publications récentes en imagerie TEP
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+mise-a-jour:
+  label: Mise à jour
+  permalink: /mise-a-jour
+  description: Mises à jour du contenu du site
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+cas-clinique:
+  label: Cas clinique
+  permalink: /cas-clinique
+  description: Cas cliniques illustratifs en TEP oncologie
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+recommandations:
+  label: Recommandations
+  permalink: /recommandations
+  description: Nouvelles recommandations et consensus

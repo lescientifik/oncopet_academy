@@ -87,11 +87,14 @@ Pipeline: checkout → Node 20 → `npm ci` → `npm run build` → deploy to Gi
 sidebar_position: X
 title: "Titre du cours"
 description: "Description courte pour le SEO et les métadonnées"
+authors:
+  - name: Dr T. Henry
+    role: Médecin nucléaire
+  - name: Claude
+    role: Assistant IA
 ---
 
 # Titre du cours
-
-**Auteurs : Dr T. Henry, Claude (assistant IA)**
 
 ---
 
@@ -119,6 +122,7 @@ Contenu structuré avec sous-sections.
 
 ## Références
 
+<a id="ref-1"></a>
 1. Auteur1 AB, Auteur2 CD, Auteur3 EF, et al. Titre de l'article. *Nom du Journal*. Année;Volume(Numéro):Pages.
    [PubMed](https://pubmed.ncbi.nlm.nih.gov/PMID/)
 ```
@@ -130,12 +134,19 @@ Contenu structuré avec sous-sections.
 - Nom du journal en *italique*
 - Lien PubMed cliquable à la fin de chaque référence
 - Format du lien : `https://pubmed.ncbi.nlm.nih.gov/PMID/`
+- **Citations inline** : utiliser `[[N]](#ref-N)` dans le texte, avec ancre `<a id="ref-N"></a>` avant chaque référence dans la section Références
 
-**Exemple :**
+**Exemple dans le texte :**
 ```
-1. Barrington SF, Mikhaeel NG, Kostakoglu L, et al. Role of imaging in the staging
-   and response assessment of lymphoma. *J Clin Oncol*. 2014;32(27):3048-3058.
-   [PubMed](https://pubmed.ncbi.nlm.nih.gov/25113771/)
+Les critères RECIP ont été développés par Gafita et al. [[7]](#ref-7).
+```
+
+**Exemple dans la section Références :**
+```
+<a id="ref-7"></a>
+7. Gafita A, Rauscher I, Weber M, et al. Novel Framework for Treatment Response
+   Evaluation Using PSMA PET/CT. *J Nucl Med*. 2022;63(11):1651-1658.
+   [PubMed](https://pubmed.ncbi.nlm.nih.gov/35422442/)
 ```
 
 ## Guide de placement des cours
@@ -143,8 +154,9 @@ Contenu structuré avec sous-sections.
 | Dossier | Contenu | Exemples |
 |---------|---------|----------|
 | `docs/pratique/` | Guides pratiques, rédaction, scores, protocoles, préparation patient | Rédaction CR, check-lists, protocoles d'injection |
+| `docs/pathologies/prostate/` | Cancer de prostate : TEP PSMA, staging, interprétation, réponse | Critères d'interprétation TEP PSMA |
 
-> Les autres catégories (pathologies, radiopharmaceutiques, référence) seront créées à la demande lors de l'ajout du premier cours correspondant. Chaque nouvelle catégorie nécessite un `_category_.json` avec label, position, et description.
+> Les autres catégories (radiopharmaceutiques, référence, autres pathologies) seront créées à la demande lors de l'ajout du premier cours correspondant. Chaque nouvelle catégorie nécessite un `_category_.json` avec label, position, et description.
 
 ## Checklist de publication
 

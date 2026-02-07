@@ -31,6 +31,10 @@ L'objectif est de construire progressivement **une base de connaissances complè
 
 ## Contenu actuellement disponible
 
+### Pathologies
+
+- **[Critères d'interprétation de la TEP PSMA](./pathologies/prostate/criteres-interpretation-tep-psma.md)** : guide complet des frameworks d'interprétation TEP PSMA (SPARC, PROMISE, PSMA-RADS, PRIMARY, RECIP, PPP)
+
 ### Pratique clinique
 
 - **[Guide de rédaction - Comptes rendus TEP-scan](./pratique/redaction-comptes-rendus-tep.md)** : guide complet pour la rédaction des comptes rendus (critères PERCIST, score de Deauville, bonnes pratiques)

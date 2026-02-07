@@ -1,12 +1,4 @@
-// @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import {themes as prismThemes} from 'prism-react-renderer';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,31 +6,45 @@ const config = {
   tagline: 'Formation et enseignement en imagerie TEP pour l\'oncologie',
   favicon: 'img/favicon.ico',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: true,
   },
 
-  // Set the production url of your site here
   url: 'https://lescientifik.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/oncopet_academy/',
+  trailingSlash: false,
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'lescientifik', // Usually your GitHub org/user name.
-  projectName: 'oncopet_academy', // Usually your repo name.
+  organizationName: 'lescientifik',
+  projectName: 'oncopet_academy',
 
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'throw',
+  onBrokenAnchors: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'fr',
     locales: ['fr'],
   },
+
+
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {type: 'application/ld+json'},
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'TEP en Oncologie',
+        url: 'https://lescientifik.github.io/oncopet_academy/',
+        description: 'Formation et enseignement en imagerie TEP pour l\'oncologie',
+        publisher: {
+          '@type': 'Person',
+          name: 'Dr T. Henry',
+          jobTitle: 'Médecin nucléaire',
+        },
+      }),
+    },
+  ],
 
   presets: [
     [
@@ -47,8 +53,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/lescientifik/oncopet_academy/tree/main/tep-oncology-site/',
         },
@@ -58,11 +62,8 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/lescientifik/oncopet_academy/tree/main/tep-oncology-site/',
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -77,10 +78,24 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/tep-oncologie-social-card.png',
+      metadata: [
+        {name: 'keywords', content: 'TEP, PET, oncologie, médecine nucléaire, formation, PSMA'},
+        {name: 'author', content: 'Dr T. Henry'},
+      ],
+      announcementBar: {
+        id: 'site_en_construction',
+        content: 'Ce site est en cours de construction — le contenu est progressivement enrichi.',
+        backgroundColor: '#E3F2FD',
+        textColor: '#0D47A1',
+        isCloseable: true,
+      },
       colorMode: {
         respectPrefersColorScheme: true,
+      },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 4,
       },
       navbar: {
         title: 'TEP Oncologie',
@@ -113,6 +128,14 @@ const config = {
                 label: 'Introduction',
                 to: '/docs/intro',
               },
+              {
+                label: 'Pratique clinique',
+                to: '/docs/pratique',
+              },
+              {
+                label: 'Pathologies',
+                to: '/docs/pathologies',
+              },
             ],
           },
           {
@@ -123,13 +146,22 @@ const config = {
                 to: '/blog',
               },
               {
+                label: 'PubMed',
+                href: 'https://pubmed.ncbi.nlm.nih.gov/',
+              },
+            ],
+          },
+          {
+            title: 'À propos',
+            items: [
+              {
                 label: 'GitHub',
                 href: 'https://github.com/lescientifik/oncopet_academy',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} TEP Oncologie. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} TEP Oncologie Academy.`,
       },
       prism: {
         theme: prismThemes.github,

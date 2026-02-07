@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lescientifik.github.io/oncopet_academy/sitemap.xml

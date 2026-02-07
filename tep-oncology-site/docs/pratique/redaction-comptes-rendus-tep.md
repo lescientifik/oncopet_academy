@@ -2,6 +2,11 @@
 sidebar_position: 1
 title: Guide de rédaction - Comptes rendus TEP-scan
 description: Support pédagogique pour les internes sur la rédaction des comptes rendus TEP-scan
+authors:
+  - name: Dr T. Henry
+    role: Médecin nucléaire
+  - name: Claude
+    role: Assistant IA
 ---
 
 # Guide de Rédaction : Comptes Rendus TEP-scan

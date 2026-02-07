@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+title: "Bienvenue sur TEP Oncologie Academy"
+description: "Plateforme de formation en imagerie TEP pour l'oncologie — cours, guides pratiques et actualités"
 ---
 
 # Bienvenue à l'académie TEP en Oncologie

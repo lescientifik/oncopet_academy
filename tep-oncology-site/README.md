@@ -1,41 +1,30 @@
-# Website
+# TEP Oncologie Academy
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Site de formation en imagerie TEP pour l'oncologie, construit avec [Docusaurus](https://docusaurus.io/).
 
-## Installation
+**Site en ligne :** [lescientifik.github.io/oncopet_academy](https://lescientifik.github.io/oncopet_academy/)
 
-```bash
-yarn
-```
-
-## Local Development
+## Développement local
 
 ```bash
-yarn start
+# Installation des dépendances
+bun install
+
+# Serveur de développement (localhost:3000)
+bun start
+
+# Build de production
+bun run build
+
+# Servir le build localement
+bun run serve
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Déploiement
 
-## Build
+Le site est déployé automatiquement sur GitHub Pages via GitHub Actions à chaque push sur `main`.
 
-```bash
-yarn build
-```
+## Auteurs
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- **Dr T. Henry** — Médecin nucléaire, auteur principal
+- **Claude** — Assistant IA, aide à la recherche et à la rédaction

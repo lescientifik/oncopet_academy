@@ -1,5 +1,13 @@
 {
   "label": "Pathologies",
   "position": 3,
-  "description": "Cours par pathologie : critères d'interprétation, staging et évaluation de la réponse"
+  "collapsible": true,
+  "collapsed": false,
+  "description": "Cours par pathologie : critères d'interprétation, staging et évaluation de la réponse",
+  "link": {
+    "type": "generated-index",
+    "title": "Pathologies",
+    "description": "Cours par pathologie : critères d'interprétation, staging et évaluation de la réponse",
+    "slug": "/pathologies"
+  }
 }

@@ -1,6 +1,7 @@
 {
   "name": "tep-oncology-site",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "TEP Oncologie Academy — site de formation en imagerie TEP pour l'oncologie",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

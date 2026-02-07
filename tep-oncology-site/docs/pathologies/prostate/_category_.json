@@ -1,5 +1,13 @@
 {
   "label": "Cancer de prostate",
   "position": 1,
-  "description": "TEP PSMA dans le cancer de prostate : staging, interprétation et évaluation de la réponse"
+  "collapsible": true,
+  "collapsed": false,
+  "description": "TEP PSMA dans le cancer de prostate : staging, interprétation et évaluation de la réponse",
+  "link": {
+    "type": "generated-index",
+    "title": "Cancer de prostate",
+    "description": "TEP PSMA dans le cancer de prostate : staging, interprétation et évaluation de la réponse",
+    "slug": "/pathologies/prostate"
+  }
 }

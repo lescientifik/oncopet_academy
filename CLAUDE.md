@@ -122,8 +122,7 @@ Contenu structuré avec sous-sections.
 
 ## Références
 
-<a id="ref-1"></a>
-1. Auteur1 AB, Auteur2 CD, Auteur3 EF, et al. Titre de l'article. *Nom du Journal*. Année;Volume(Numéro):Pages.
+1. <a id="ref-1"></a>Auteur1 AB, Auteur2 CD, Auteur3 EF, et al. Titre de l'article. *Nom du Journal*. Année;Volume(Numéro):Pages.
    [PubMed](https://pubmed.ncbi.nlm.nih.gov/PMID/)
 ```
 
@@ -134,7 +133,7 @@ Contenu structuré avec sous-sections.
 - Nom du journal en *italique*
 - Lien PubMed cliquable à la fin de chaque référence
 - Format du lien : `https://pubmed.ncbi.nlm.nih.gov/PMID/`
-- **Citations inline** : utiliser `[[N]](#ref-N)` dans le texte, avec ancre `<a id="ref-N"></a>` avant chaque référence dans la section Références
+- **Citations inline** : utiliser `[[N]](#ref-N)` dans le texte, avec `<a id="ref-N"></a>` en inline au début de chaque référence dans la section Références
 
 **Exemple dans le texte :**
 ```
@@ -143,8 +142,7 @@ Les critères RECIP ont été développés par Gafita et al. [[7]](#ref-7).
 
 **Exemple dans la section Références :**
 ```
-<a id="ref-7"></a>
-7. Gafita A, Rauscher I, Weber M, et al. Novel Framework for Treatment Response
+7. <a id="ref-7"></a>Gafita A, Rauscher I, Weber M, et al. Novel Framework for Treatment Response
    Evaluation Using PSMA PET/CT. *J Nucl Med*. 2022;63(11):1651-1658.
    [PubMed](https://pubmed.ncbi.nlm.nih.gov/35422442/)
 ```

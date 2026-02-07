@@ -18,7 +18,6 @@ const config = {
   projectName: 'oncopet_academy',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
   onBrokenAnchors: 'warn',
 
   i18n: {
@@ -45,6 +44,12 @@ const config = {
       }),
     },
   ],
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+    },
+  },
 
   presets: [
     [

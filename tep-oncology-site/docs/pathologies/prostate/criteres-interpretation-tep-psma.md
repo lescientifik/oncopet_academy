@@ -322,70 +322,53 @@ Le consensus SPARC souligne que l'expression PSMA peut être variable dans les *
 
 ## Références
 
-<a id="ref-1"></a>
-1. Eiber M, Herrmann K, Calais J, et al. Prostate Cancer Molecular Imaging Standardized Evaluation (PROMISE): Proposed miTNM Classification for the Interpretation of PSMA-Ligand PET/CT. *J Nucl Med*. 2018;59(3):469-478.
+1. <a id="ref-1"></a>Eiber M, Herrmann K, Calais J, et al. Prostate Cancer Molecular Imaging Standardized Evaluation (PROMISE): Proposed miTNM Classification for the Interpretation of PSMA-Ligand PET/CT. *J Nucl Med*. 2018;59(3):469-478.
    [PubMed](https://pubmed.ncbi.nlm.nih.gov/29123012/)
 
-<a id="ref-2"></a>
-2. Rowe SP, Pienta KJ, Pomper MG, et al. PSMA-RADS Version 1.0: A Step Towards Standardizing the Interpretation and Reporting of PSMA-targeted PET Imaging Studies. *Eur Urol*. 2018;73(4):485-487.
+2. <a id="ref-2"></a>Rowe SP, Pienta KJ, Pomper MG, et al. PSMA-RADS Version 1.0: A Step Towards Standardizing the Interpretation and Reporting of PSMA-targeted PET Imaging Studies. *Eur Urol*. 2018;73(4):485-487.
    [PubMed](https://pubmed.ncbi.nlm.nih.gov/29132714/)
 
-<a id="ref-3"></a>
-3. Fanti S, Hadaschik B, Herrmann K. Proposal for Systemic-Therapy Response-Assessment Criteria at the Time of PSMA PET/CT Imaging: The PSMA PET Progression Criteria. *J Nucl Med*. 2020;61(5):678-682.
+3. <a id="ref-3"></a>Fanti S, Hadaschik B, Herrmann K. Proposal for Systemic-Therapy Response-Assessment Criteria at the Time of PSMA PET/CT Imaging: The PSMA PET Progression Criteria. *J Nucl Med*. 2020;61(5):678-682.
    [PubMed](https://pubmed.ncbi.nlm.nih.gov/31806774/)
 
-<a id="ref-4"></a>
-4. Ceci F, Oprea-Lager DE, Emmett L, et al. E-PSMA: the EANM standardized reporting guidelines v1.0 for PSMA-PET. *Eur J Nucl Med Mol Imaging*. 2021;48(5):1626-1638.
+4. <a id="ref-4"></a>Ceci F, Oprea-Lager DE, Emmett L, et al. E-PSMA: the EANM standardized reporting guidelines v1.0 for PSMA-PET. *Eur J Nucl Med Mol Imaging*. 2021;48(5):1626-1638.
    [PubMed](https://pubmed.ncbi.nlm.nih.gov/33604691/)
 
-<a id="ref-5"></a>
-5. Fanti S, Goffin K, Hadaschik BA, et al. Consensus statements on PSMA PET/CT response assessment criteria in prostate cancer. *Eur J Nucl Med Mol Imaging*. 2021;48(2):469-476.
+5. <a id="ref-5"></a>Fanti S, Goffin K, Hadaschik BA, et al. Consensus statements on PSMA PET/CT response assessment criteria in prostate cancer. *Eur J Nucl Med Mol Imaging*. 2021;48(2):469-476.
    [PubMed](https://pubmed.ncbi.nlm.nih.gov/32617640/)
 
-<a id="ref-6"></a>
-6. Emmett L, Papa N, Buteau J, et al. The PRIMARY Score: Using Intraprostatic ⁶⁸Ga-PSMA PET/CT Patterns to Optimize Prostate Cancer Diagnosis. *J Nucl Med*. 2022;63(11):1644-1650.
+6. <a id="ref-6"></a>Emmett L, Papa N, Buteau J, et al. The PRIMARY Score: Using Intraprostatic ⁶⁸Ga-PSMA PET/CT Patterns to Optimize Prostate Cancer Diagnosis. *J Nucl Med*. 2022;63(11):1644-1650.
    [PubMed](https://pubmed.ncbi.nlm.nih.gov/35301240/)
 
-<a id="ref-7"></a>
-7. Gafita A, Rauscher I, Weber M, et al. Novel Framework for Treatment Response Evaluation Using PSMA PET/CT in Patients with Metastatic Castration-Resistant Prostate Cancer (RECIP 1.0): An International Multicenter Study. *J Nucl Med*. 2022;63(11):1651-1658.
+7. <a id="ref-7"></a>Gafita A, Rauscher I, Weber M, et al. Novel Framework for Treatment Response Evaluation Using PSMA PET/CT in Patients with Metastatic Castration-Resistant Prostate Cancer (RECIP 1.0): An International Multicenter Study. *J Nucl Med*. 2022;63(11):1651-1658.
    [PubMed](https://pubmed.ncbi.nlm.nih.gov/35422442/)
 
-<a id="ref-8"></a>
-8. Gafita A, Rauscher I, Fendler WP, et al. Measuring response in metastatic castration-resistant prostate cancer using PSMA PET/CT: comparison of RECIST 1.1, aPCWG3, aPERCIST, PPP, and RECIP 1.0 criteria. *Eur J Nucl Med Mol Imaging*. 2022;49(12):4149-4161.
+8. <a id="ref-8"></a>Gafita A, Rauscher I, Fendler WP, et al. Measuring response in metastatic castration-resistant prostate cancer using PSMA PET/CT: comparison of RECIST 1.1, aPCWG3, aPERCIST, PPP, and RECIP 1.0 criteria. *Eur J Nucl Med Mol Imaging*. 2022;49(12):4149-4161.
    [PubMed](https://pubmed.ncbi.nlm.nih.gov/35767071/)
 
-<a id="ref-9"></a>
-9. Seifert R, Emmett L, Rowe SP, et al. Second Version of the Prostate Cancer Molecular Imaging Standardized Evaluation Framework Including Response Evaluation for Clinical Trials (PROMISE V2). *Eur Urol*. 2023;83(5):405-412.
+9. <a id="ref-9"></a>Seifert R, Emmett L, Rowe SP, et al. Second Version of the Prostate Cancer Molecular Imaging Standardized Evaluation Framework Including Response Evaluation for Clinical Trials (PROMISE V2). *Eur Urol*. 2023;83(5):405-412.
    [PubMed](https://pubmed.ncbi.nlm.nih.gov/36935345/)
 
-<a id="ref-10"></a>
-10. Werner RA, Hartrampf PE, Fendler WP, et al. Prostate-specific Membrane Antigen Reporting and Data System Version 2.0. *Eur Urol*. 2023;84(5):425-431.
+10. <a id="ref-10"></a>Werner RA, Hartrampf PE, Fendler WP, et al. Prostate-specific Membrane Antigen Reporting and Data System Version 2.0. *Eur Urol*. 2023;84(5):425-431.
     [PubMed](https://pubmed.ncbi.nlm.nih.gov/37414701/)
 
-<a id="ref-11"></a>
-11. Gafita A, Djaileb L, Rauscher I, et al. Response Evaluation Criteria in PSMA PET/CT (RECIP 1.0) in Metastatic Castration-resistant Prostate Cancer. *Radiology*. 2023;308(1):e222148.
+11. <a id="ref-11"></a>Gafita A, Djaileb L, Rauscher I, et al. Response Evaluation Criteria in PSMA PET/CT (RECIP 1.0) in Metastatic Castration-resistant Prostate Cancer. *Radiology*. 2023;308(1):e222148.
     [PubMed](https://pubmed.ncbi.nlm.nih.gov/37432081/)
 
-<a id="ref-12"></a>
-12. Seifert R, Gafita A, Telli T, et al. Standardized PSMA-PET Imaging of Advanced Prostate Cancer. *Semin Nucl Med*. 2024;54(1):46-56.
+12. <a id="ref-12"></a>Seifert R, Gafita A, Telli T, et al. Standardized PSMA-PET Imaging of Advanced Prostate Cancer. *Semin Nucl Med*. 2024;54(1):46-56.
     [PubMed](https://pubmed.ncbi.nlm.nih.gov/37573199/)
 
-<a id="ref-13"></a>
-13. Herrmann K, Walz J, MacLennan S, et al. SPARC: The Standardised PSMA PET/CT Analysis and Reporting Consensus: A Delphi Analysis. *Eur Urol*. 2025;88(3):282-291.
+13. <a id="ref-13"></a>Herrmann K, Walz J, MacLennan S, et al. SPARC: The Standardised PSMA PET/CT Analysis and Reporting Consensus: A Delphi Analysis. *Eur Urol*. 2025;88(3):282-291.
     [PubMed](https://pubmed.ncbi.nlm.nih.gov/40945999/)
 
-<a id="ref-14"></a>
-14. Woo S, Masci B, Rowe SP, et al. Navigating the Scoring Systems and Interpretation Frameworks of Prostate-specific Membrane Antigen PET. *Radiology*. 2025;313(3):e242792.
+14. <a id="ref-14"></a>Woo S, Masci B, Rowe SP, et al. Navigating the Scoring Systems and Interpretation Frameworks of Prostate-specific Membrane Antigen PET. *Radiology*. 2025;313(3):e242792.
     [PubMed](https://pubmed.ncbi.nlm.nih.gov/41363980/)
 
-<a id="ref-15"></a>
-15. Gafita A, Schroeder JA, Ceci F, et al. Treatment Response Evaluation in Prostate Cancer Using PSMA PET/CT. *J Nucl Med*. 2025;66(7):1046-1053.
+15. <a id="ref-15"></a>Gafita A, Schroeder JA, Ceci F, et al. Treatment Response Evaluation in Prostate Cancer Using PSMA PET/CT. *J Nucl Med*. 2025;66(7):1046-1053.
     [PubMed](https://pubmed.ncbi.nlm.nih.gov/40473460/)
 
-<a id="ref-16"></a>
-16. Molin K, Ong JSL, Werf SV, et al. RECIP 1.0 more predictive of overall survival than PSMA PET progression criteria in biochemically recurrent prostate cancer. *Eur J Nucl Med Mol Imaging*. 2025;52(13):3999-4010.
+16. <a id="ref-16"></a>Molin K, Ong JSL, Werf SV, et al. RECIP 1.0 more predictive of overall survival than PSMA PET progression criteria in biochemically recurrent prostate cancer. *Eur J Nucl Med Mol Imaging*. 2025;52(13):3999-4010.
     [PubMed](https://pubmed.ncbi.nlm.nih.gov/41145918/)
 
-<a id="ref-17"></a>
-17. Di Franco M, Mei R, Garcia C, et al. Treatment response assessment in mCRPC: is PSMA-PET/CT going to take the lead? *Ther Adv Med Oncol*. 2024;16:17588359241282837.
+17. <a id="ref-17"></a>Di Franco M, Mei R, Garcia C, et al. Treatment response assessment in mCRPC: is PSMA-PET/CT going to take the lead? *Ther Adv Med Oncol*. 2024;16:17588359241282837.
     [PubMed](https://pubmed.ncbi.nlm.nih.gov/39386313/)

@@ -1,12 +1,16 @@
 import React from 'react';
+import Head from '@docusaurus/Head';
 import {Redirect} from '@docusaurus/router';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import Layout from '@theme/Layout';
 
 export default function Home() {
+  const url = useBaseUrl('/docs/intro');
   return (
-    <Layout title="Accueil" description="Formation et enseignement en imagerie TEP pour l'oncologie">
-      <Redirect to={useBaseUrl('/docs/intro')} />
-    </Layout>
+    <>
+      <Head>
+        <meta httpEquiv="refresh" content={`0;url=${url}`} />
+      </Head>
+      <Redirect to={url} />
+    </>
   );
 }

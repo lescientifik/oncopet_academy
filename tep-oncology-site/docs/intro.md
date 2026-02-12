@@ -41,6 +41,14 @@ L'objectif est de construire progressivement **une base de connaissances complè
 
 - **[Guide de rédaction - Comptes rendus TEP-scan](./pratique/redaction-comptes-rendus-tep.md)** : guide complet pour la rédaction des comptes rendus (critères PERCIST, score de Deauville, bonnes pratiques)
 
+### Guidelines & Recommandations
+
+- **[Guidelines EANM 2025 : TEP au FDG (v3.0)](./guidelines/guidelines-eanm-fdg-petct-v3.md)** : synthèse des nouvelles recommandations EANM pour l'imagerie tumorale au FDG (préparation patient, activité, reconstruction EARL 2, quantification SUV/SUL/MTV/TLG)
+
+### Outils interactifs
+
+- **[Assistant TEP FDG](/outils/assistant-tep-fdg)** : arbre décisionnel diabète, vérification glycémie, checklist pré-injection, PDC iodé (ESUR 2025), délais post-traitement
+
 :::info En construction
 Cette plateforme est en cours de développement. De nouvelles ressources seront ajoutées régulièrement.
 

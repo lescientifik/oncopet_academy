@@ -1,0 +1,13 @@
+{
+  "label": "Guidelines & Recommandations",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": false,
+  "description": "Synthèses de recommandations et guidelines internationales",
+  "link": {
+    "type": "generated-index",
+    "title": "Guidelines & Recommandations",
+    "description": "Synthèses de recommandations et guidelines internationales",
+    "slug": "/guidelines"
+  }
+}

@@ -35,14 +35,18 @@ oncopet_academy/
 ├── tep-oncology-site/          # Docusaurus app (all npm commands run here)
 │   ├── docs/                   # Documentation content (Markdown/MDX)
 │   │   ├── intro.md            # Landing page (/ redirects to /docs/intro)
-│   │   └── pratique/           # Guides pratiques (rédaction, scores, protocoles)
+│   │   ├── pratique/           # Guides pratiques (rédaction, scores, protocoles)
+│   │   └── guidelines/         # Synthèses de guidelines internationales
 │   ├── blog/                   # Actualités (YYYY-MM-DD-title.md format)
 │   ├── src/
+│   │   ├── components/outils/  # Composants React pour les outils interactifs
 │   │   ├── pages/index.js      # Home page — redirects to /docs/intro
+│   │   ├── pages/outils/       # Pages Docusaurus pour les outils interactifs
 │   │   └── css/custom.css      # Infima theme overrides (green healthcare palette)
 │   ├── static/img/             # Static assets
 │   ├── docusaurus.config.js    # Site config (metadata, navbar, footer, i18n: fr)
 │   └── sidebars.js             # Auto-generated from docs/ folder structure
+├── scripts/add-tool.sh         # Script pour intégrer un nouveau TSX comme outil
 └── .github/workflows/deploy.yml  # CI: builds & deploys on push to main
 ```
 
@@ -153,8 +157,19 @@ Les critères RECIP ont été développés par Gafita et al. [[7]](#ref-7).
 |---------|---------|----------|
 | `docs/pratique/` | Guides pratiques, rédaction, scores, protocoles, préparation patient | Rédaction CR, check-lists, protocoles d'injection |
 | `docs/pathologies/prostate/` | Cancer de prostate : TEP PSMA, staging, interprétation, réponse | Critères d'interprétation TEP PSMA |
+| `docs/guidelines/` | Synthèses de recommandations et guidelines internationales | Guidelines EANM FDG v3.0 |
+| `src/components/outils/` | Composants React sources pour les outils interactifs | EanmPetAssistant.tsx |
+| `src/pages/outils/` | Pages Docusaurus wrappant les outils (URL: `/outils/<slug>`) | assistant-tep-fdg.tsx |
 
 > Les autres catégories (radiopharmaceutiques, référence, autres pathologies) seront créées à la demande lors de l'ajout du premier cours correspondant. Chaque nouvelle catégorie nécessite un `_category_.json` avec label, position, et description.
+
+## Outils interactifs
+
+Les outils interactifs sont des composants React (TSX) hébergés comme pages Docusaurus :
+
+- **Composants** : `src/components/outils/<PascalCase>.tsx` (export default)
+- **Pages** : `src/pages/outils/<slug>.tsx` (wrapper avec `<Layout>`)
+- **Script** : `bash scripts/add-tool.sh <fichier.tsx> <slug> "Titre" "Description"` pour automatiser l'intégration
 
 ## Checklist de publication
 

@@ -116,6 +116,7 @@ const config = {
             label: 'Documentation',
           },
           {to: '/blog', label: 'Actualités', position: 'left'},
+          {to: '/outils/assistant-tep-fdg', label: 'Outils', position: 'left'},
           {
             href: 'https://github.com/lescientifik/oncopet_academy',
             label: 'GitHub',
@@ -141,6 +142,10 @@ const config = {
                 label: 'Pathologies',
                 to: '/docs/pathologies',
               },
+              {
+                label: 'Guidelines',
+                to: '/docs/guidelines',
+              },
             ],
           },
           {
@@ -149,6 +154,10 @@ const config = {
               {
                 label: 'Actualités',
                 to: '/blog',
+              },
+              {
+                label: 'Outils',
+                to: '/outils/assistant-tep-fdg',
               },
               {
                 label: 'PubMed',

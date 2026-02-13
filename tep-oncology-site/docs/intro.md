@@ -44,6 +44,7 @@ L'objectif est de construire progressivement **une base de connaissances complè
 ### Guidelines & Recommandations
 
 - **[Guidelines EANM 2025 : TEP au FDG (v3.0)](./guidelines/guidelines-eanm-fdg-petct-v3.md)** : synthèse des nouvelles recommandations EANM pour l'imagerie tumorale au FDG (préparation patient, activité, reconstruction EARL 2, quantification SUV/SUL/MTV/TLG)
+- **[Guidelines EANM-SNMMI 2024 : TEP au FDG dans le cancer du sein NST](./guidelines/guidelines-eanm-snmmi-fdg-petct-sein.md)** : synthèse de la guideline conjointe EANM-SNMMI sur le rôle de la TEP/TDM au FDG dans le cancer du sein (staging par stade TNM, réponse thérapeutique, récidive, perspectives)
 
 ### Outils interactifs
 

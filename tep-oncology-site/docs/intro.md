@@ -36,6 +36,8 @@ L'objectif est de construire progressivement **une base de connaissances complè
 ### Pathologies
 
 - **[Critères d'interprétation de la TEP PSMA](./pathologies/prostate/criteres-interpretation-tep-psma.md)** : guide complet des frameworks d'interprétation TEP PSMA (SPARC, PROMISE, PSMA-RADS, PRIMARY, RECIP, PPP)
+- **[PSMA-VOL : méthodes de segmentation](./pathologies/prostate/psma-vol-segmentation.md)** : détails techniques sur les méthodes de mesure du volume tumoral PSMA-positif et questions ouvertes autour de la standardisation
+- **[Mismatch FDG+/PSMA-](./pathologies/prostate/mismatch-fdg-psma.md)** : définition, critères VISION vs TheraP, et impact pronostique du mismatch FDG+/PSMA- dans le mCRPC
 
 ### Pratique clinique
 

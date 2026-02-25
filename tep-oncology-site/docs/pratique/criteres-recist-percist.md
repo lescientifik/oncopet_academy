@@ -135,7 +135,7 @@ Les lésions non cibles sont évaluées **qualitativement** (pas de mesure) :
 | **PD** | Progression **non équivoque** des lésions non cibles |
 
 :::info *Marqueurs tumoraux dans RECIST 1.1
-Oui, le texte original de RECIST 1.1 (Eisenhauer 2009, Table 2) inclut bien la normalisation des marqueurs tumoraux comme condition de la CR des non-cibles [[3]](#ref-3). Les marqueurs ne peuvent cependant **pas être utilisés seuls** pour évaluer la réponse : si les marqueurs étaient initialement élevés, ils doivent se normaliser pour qu'un patient soit considéré en CR complète lorsque toutes les lésions ont disparu.
+Bien que présents dans le texte original de RECIST 1.1 (Table 2) [[3]](#ref-3), les marqueurs tumoraux sont **rarement utilisés en pratique** et ne s'appliquent qu'à des cas spécifiques. Le texte de RECIST 1.1 précise : *"Because tumour markers are disease specific, instructions for their measurement should be incorporated into protocols on a disease specific basis."* Des guidelines spécifiques existent pour le CA-125 (cancer ovarien récidivant) et le PSA (cancer de prostate récidivant). Les marqueurs ne peuvent **pas être utilisés seuls** pour évaluer la réponse.
 :::
 
 :::warning Progression « non équivoque » des non-cibles
@@ -284,10 +284,10 @@ En **PERCIST**, la lésion cible est la **plus active métaboliquement à chaque
 
 | Catégorie | Définition | Référence |
 |-----------|-----------|-----------|
-| **CMR** (Complete Metabolic Response) | Résolution complète de la fixation FDG : SULpeak < SUL moyen hépatique, indiscernable du bruit de fond ; pas de nouvelles lésions | — |
+| **CMR** (Complete Metabolic Response) | Résolution complète de la fixation FDG dans la lésion cible : SULpeak **< SUL moyen hépatique** et **indiscernable du bruit de fond vasculaire** (*blood pool*) ; disparition de toutes les autres lésions au niveau du bruit de fond ; pas de nouvelles lésions FDG-avides | — |
 | **PMR** (Partial Metabolic Response) | Diminution ≥ **30 %** du SULpeak **ET** diminution absolue ≥ **0,8 unité SUL** ; pas de nouvelles lésions ; pas d'augmentation > 30 % des autres lésions | vs. **Baseline** |
 | **SMD** (Stable Metabolic Disease) | Ne remplit ni les critères de PMR ni ceux de PMD | Entre les deux |
-| **PMD** (Progressive Metabolic Disease) | Augmentation ≥ **30 %** du SULpeak **ET** augmentation absolue ≥ **0,8 unité SUL** ; OU nouvelles lésions FDG-avides ; OU augmentation > 75 % de la TLG ; OU augmentation > 30 % de la taille anatomique de la lésion cible | vs. **Baseline** (1ʳᵉ éval.) puis vs. **meilleure réponse** |
+| **PMD** (Progressive Metabolic Disease) | Augmentation ≥ **30 %** du SULpeak **ET** augmentation absolue ≥ **0,8 unité SUL** ; OU nouvelles lésions FDG-avides ; OU augmentation > 75 % de la TLG ; OU augmentation > 30 % de la taille anatomique de la lésion cible | vs. **Nadir** |
 
 :::danger Double critère obligatoire
 Comme pour RECIST, le PERCIST impose un **double critère** pour la PMR et la PMD :
@@ -301,18 +301,44 @@ Ceci évite les faux classements lorsque les valeurs de SUL sont basses (une var
 
 % de variation = [(SULpeak suivi − SULpeak référence) ÷ SULpeak référence] × 100
 
-### 3.8 Concept de nadir en PERCIST
-
-Le nadir en PERCIST correspond à la **meilleure réponse enregistrée** (SULpeak le plus bas de la lésion la plus active au cours du suivi).
-
-- La **PMR** s'évalue par rapport au **baseline**
-- La **PMD** s'évalue par rapport au **baseline** lors de la **première** évaluation, puis par rapport à la **meilleure réponse** (nadir) lors des évaluations suivantes [[4]](#ref-4)
-
-:::info Précision sur la Table 7 de Wahl 2009
-La Table 7 du PERCIST original précise : *"Progression is judged from best response if being assessed after first scan was performed."* Cela signifie que le concept de nadir s'applique à partir de la deuxième évaluation, une fois qu'une réponse de référence a été documentée.
+:::tip Format de reporting PERCIST
+PERCIST recommande un reporting structuré incluant le % de variation, le temps depuis le début du traitement (en semaines) et la présence/nombre de nouvelles lésions. Exemple : **PMR −40, 3** (réponse partielle de −40 % à la semaine 3) ou **PMD +35, 4, new: 5** (progression de +35 % à la semaine 4 avec 5 nouvelles lésions).
 :::
 
-### 3.9 Quand PERCIST défère à RECIST
+### 3.8 Concept de nadir en PERCIST
+
+Comme en RECIST, le principe est le même :
+
+- La **PMR** s'évalue par rapport au **baseline**
+- La **PMD** s'évalue par rapport au **nadir** (meilleure réponse enregistrée = SULpeak le plus bas de la lésion la plus active au cours du suivi)
+- Si aucune amélioration n'a été observée, le nadir **est** le baseline
+
+### 3.9 Évaluation par la TLG (Total Lesion Glycolysis)
+
+En plus du SULpeak, PERCIST propose la **TLG** comme paramètre exploratoire secondaire [[4]](#ref-4) :
+
+- La TLG est calculée sur les voxels dont le SUL est > 2 écarts-types au-dessus du SUL moyen hépatique
+- **Critère de progression par TLG** : augmentation ≥ **75 %** de la TLG (ce seuil de 75 % est cohérent avec une augmentation de +20 % en diamètre linéaire selon EORTC, qui correspond à +73 % en volume)
+- **Critère de réponse par TLG** : diminution ≥ **45 %** proposée comme point de départ, mais les données restent insuffisantes pour des recommandations fermes
+
+:::info TLG = endpoint secondaire
+La Table 7 de Wahl 2009 précise que la TLG ne doit pas être un critère primaire à ce stade (*"It should not be a primary metric, but a secondary endpoint at this time"*), mais un critère secondaire exploratoire. Des détails méthodologiques explicites doivent être fournis si la TLG est utilisée.
+:::
+
+### 3.10 Combien de lésions évaluer ?
+
+PERCIST 1.0 évalue en priorité **une seule lésion** (la plus active), mais reconnaît que cela est une limitation potentielle [[4]](#ref-4) :
+
+- Les lésions et leurs réponses sont **hautement corrélées** en général
+- Une **option exploratoire** est d'évaluer jusqu'à **5 lésions** (les 5 plus actives, ou les 5 identifiées par RECIST 1.1, max 2 par organe)
+- Si 5 lésions sont utilisées, la somme des SULpeak des 5 lésions au baseline sert de référence, et la somme des mêmes 5 lésions au suivi est comparée
+- Des études complémentaires sont nécessaires pour déterminer le nombre optimal de lésions à évaluer
+
+:::info Question ouverte
+Le nombre optimal de lésions à évaluer en PERCIST reste un sujet de recherche. L'article original conclut : *"Additional data are required to determine how many lesions should be assessed over 1."*
+:::
+
+### 3.11 Quand PERCIST défère à RECIST
 
 PERCIST reconnaît ses propres limites et **défère à RECIST 1.1** dans les situations suivantes [[4]](#ref-4) :
 
@@ -339,17 +365,15 @@ Cette section synthétise les concepts communs aux deux systèmes, qui sont souv
 | | RECIST 1.1 | PERCIST 1.0 |
 |---|---|---|
 | **Définition** | Plus petite SoD enregistrée au cours du suivi (peut être le baseline) | SULpeak le plus bas enregistré pour la lésion la plus active (peut être le baseline) |
-| **Rôle** | Référence pour évaluer la **progression** (PD) — dès la 1ʳᵉ évaluation | Référence pour évaluer la **progression** (PMD) — à partir de la 2ᵉ évaluation (1ʳᵉ éval. vs baseline) |
+| **Rôle** | Référence pour évaluer la **progression** (PD) | Référence pour évaluer la **progression** (PMD) |
 
 ### 4.3 La règle d'or
 
-:::danger Principe commun (RECIST et PERCIST)
+:::danger Règle universelle (RECIST et PERCIST)
 - **Réponse** = variation par rapport au **BASELINE**
-- **Progression** = variation par rapport à la **MEILLEURE RÉPONSE** (nadir)
+- **Progression** = variation par rapport au **NADIR** (meilleure réponse enregistrée)
 
-Cette asymétrie est fondamentale : la réponse mesure l'efficacité par rapport à l'état initial, tandis que la progression détecte une aggravation par rapport au meilleur résultat obtenu.
-
-**Nuance PERCIST** : lors de la toute première évaluation, la PMD est jugée par rapport au baseline (puisqu'il n'y a pas encore de « meilleure réponse »). À partir de la deuxième évaluation, c'est la meilleure réponse enregistrée qui sert de référence [[4]](#ref-4).
+Cette asymétrie est fondamentale : la réponse mesure l'efficacité par rapport à l'état initial, tandis que la progression détecte une aggravation par rapport au meilleur résultat obtenu. Si aucune amélioration n'a été observée, le nadir est le baseline.
 :::
 
 ```
@@ -385,7 +409,7 @@ Wahl et al. soulignent que la réponse tumorale en TEP est une **variable contin
 | **Seuil de réponse** | ≥ 30 % diminution de SoD | ≥ 30 % diminution de SULpeak ET ≥ 0,8 SUL |
 | **Seuil de progression** | ≥ 20 % augmentation de SoD ET ≥ 5 mm | ≥ 30 % augmentation de SULpeak ET ≥ 0,8 SUL |
 | **Référence pour réponse** | Baseline (SoD initiale) | Baseline (SULpeak initial) |
-| **Référence pour progression** | Nadir (plus petite SoD enregistrée) | Baseline (1ʳᵉ éval.) puis meilleure réponse (SULpeak le plus bas de la lésion la plus intense) |
+| **Référence pour progression** | Nadir (plus petite SoD enregistrée) | Nadir (plus petit SULpeak enregistré pour la lésion la plus active) |
 | **Référence interne** | Aucune | Foie (VOI 3 cm) ou aorte |
 | **Nouvelles lésions** | Non équivoques → PD | FDG-avides typiques → PMD |
 | **Tumeurs non avides** | Applicable | Défère à RECIST 1.1 |
@@ -457,7 +481,7 @@ Plusieurs études comparatives ont évalué la valeur pronostique respective de 
 
 :::tip Points clés
 - **RECIST 1.1** évalue la **taille** tumorale (SoD), **PERCIST 1.0** évalue l'**activité métabolique** (SULpeak) — ce sont des approches **complémentaires**, pas concurrentes
-- Les deux systèmes partagent le même principe : **réponse vs. baseline**, **progression vs. meilleure réponse**
+- Les deux systèmes partagent le même principe : **réponse vs. baseline**, **progression vs. nadir**
 - En PERCIST, la lésion cible est la **plus active à chaque évaluation** (peut changer entre examens) ; en RECIST, les cibles sont **fixées** au baseline
 - Le **seuil de réponse** est identique : **≥ 30 %** de diminution dans les deux systèmes
 - Le **seuil de progression** diffère : **≥ 20 %** + 5 mm (RECIST) vs. **≥ 30 %** + 0,8 SUL (PERCIST)

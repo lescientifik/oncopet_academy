@@ -42,6 +42,7 @@ L'objectif est de construire progressivement **une base de connaissances complè
 ### Pratique clinique
 
 - **[Guide de rédaction - Comptes rendus TEP-scan](./pratique/redaction-comptes-rendus-tep.md)** : guide complet pour la rédaction des comptes rendus (critères PERCIST, score de Deauville, bonnes pratiques)
+- **[Critères RECIST 1.1 et PERCIST 1.0](./pratique/criteres-recist-percist.md)** : cours comparatif sur l'évaluation de la réponse thérapeutique — critères anatomiques (RECIST) vs métaboliques (PERCIST), concepts de baseline, nadir, réponse et progression
 
 ### Guidelines & Recommandations
 

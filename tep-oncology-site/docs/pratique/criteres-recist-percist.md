@@ -376,16 +376,18 @@ Cette section synthétise les concepts communs aux deux systèmes, qui sont souv
 Cette asymétrie est fondamentale : la réponse mesure l'efficacité par rapport à l'état initial, tandis que la progression détecte une aggravation par rapport au meilleur résultat obtenu. Si aucune amélioration n'a été observée, le nadir est le baseline.
 :::
 
-```
-Baseline ──────────────► Réponse (PR/PMR)
-    │                         │
-    │                         ▼
-    │                    Nadir (meilleur résultat)
-    │                         │
-    │                         ▼
-    │                    Progression (PD/PMD)
-    │
-    └── Si aucune amélioration : baseline = nadir
+```mermaid
+graph TD
+    B["🔵 BASELINE<br/>(état initial avant traitement)"]
+    B -->|"Diminution ≥ 30 %<br/>vs. baseline"| R["🟢 RÉPONSE<br/>(PR / PMR)"]
+    R --> N["⚪ NADIR<br/>(meilleur résultat enregistré)"]
+    N -->|"Augmentation ≥ 20–30 %<br/>vs. nadir"| P["🔴 PROGRESSION<br/>(PD / PMD)"]
+    B -->|"Pas d'amélioration :<br/>baseline = nadir"| P
+
+    style B fill:#1565C0,color:#fff,stroke:#0D47A1
+    style R fill:#2E7D32,color:#fff,stroke:#1B5E20
+    style N fill:#F5F5F5,color:#333,stroke:#9E9E9E
+    style P fill:#C62828,color:#fff,stroke:#B71C1C
 ```
 
 ### 4.4 Le SUV comme variable continue
@@ -438,24 +440,22 @@ Les discordances sont particulièrement fréquentes dans :
 - **Tumeurs traitées par immunothérapie** (pseudoprogression)
 :::
 
-### 5.3 Données probantes
+### 5.3 Études comparatives RECIST vs. PERCIST
 
-Plusieurs études comparatives ont évalué la valeur pronostique respective de RECIST et PERCIST :
+La littérature comparant directement RECIST et PERCIST reste **limitée en volume et en qualité méthodologique**. Les études disponibles sont principalement rétrospectives, monocentriques, avec de faibles effectifs. Leurs résultats doivent être interprétés avec prudence.
 
-**Cancer bronchique non à petites cellules (CBNPC) :**
-- Yanagawa et al. (2016) [[7]](#ref-7) : RECIST 1.1 et PERCIST 1.0 étaient discordants dans **63 %** des cas (κ = 0,139). Les critères métaboliques (PERCIST et EORTC) prédisaient mieux la survie sans progression que RECIST seul. La PMR selon PERCIST était associée à une survie significativement plus longue que la SMD, alors que la PR selon RECIST n'était pas significativement différente de la SD.
-- Anwar et al. (2015) [[8]](#ref-8) : sur 30 patients métastatiques, la réponse métabolique (PERCIST) était un facteur pronostique **indépendant** de survie globale en analyse multivariée, contrairement à RECIST.
-- Après 2–3 cycles de chimiothérapie, 9/19 patients avaient une réponse métabolique contre seulement 3/19 une réponse anatomique, illustrant la détection plus précoce par la TEP.
+| Étude | Pathologie / Traitement | n | Concordance (κ) | Résultat principal | Limites |
+|-------|------------------------|---|-----------------|-------------------|---------|
+| Yanagawa 2016 [[7]](#ref-7) | CBNPC / chimiothérapie | 45 | 0,139 (faible) | PERCIST prédit mieux la PFS que RECIST ; PMR associée à meilleure survie | Rétrospectif, monocentrique, effectif modeste |
+| Anwar 2015 [[8]](#ref-8) | CBNPC métastatique / chimiothérapie | 30 | — | PERCIST facteur pronostique indépendant de survie globale (multivariée), pas RECIST | Très petit effectif (n = 30), rétrospectif |
+| Goldfarb 2019 [[6]](#ref-6) | CBNPC / immunothérapie anti-PD-(L)1 | 39 | 0,581 (modéré) | Concordance 85,8 % ; les deux critères prédisent la survie (p < 0,001) | Monocentrique, faible effectif |
+| Seban 2020 [[9]](#ref-9) | CBNPC / nivolumab | 48 | 0,346 (faible) | PMR garde une valeur pronostique même chez les patients classés PD en RECIST | Rétrospectif, une seule molécule |
+| Taha 2025 [[10]](#ref-10) | TNE / PRRT (⁷⁷Lu) | 42 | PERCIST 0,921 vs RECIST 0,897 | Meilleure reproductibilité inter-lecteur pour PERCIST | Pas de corrélation avec la survie rapportée |
+| Li 2025 [[12]](#ref-12) | CBNPC / immunochimiothérapie néoadjuvante | 53 | — | Sensibilité pCR : RECIST 10,5 % vs PERCIST 73,7 % | Monocentrique, analyse ancillaire, seuils à confirmer |
 
-**CBNPC sous immunothérapie :**
-- Seban et al. (2020) [[9]](#ref-9) : concordance faible entre RECIST et PERCIST (κ = 0,346). La réponse métabolique partielle (PMR) conservait une valeur pronostique chez les patients classés PD par les critères radiologiques immunitaires (irRC), suggérant une valeur ajoutée de la TEP.
-- Goldfarb et al. (2019) [[6]](#ref-6) : RECIST et PERCIST concordants dans 85,8 % des cas (κ = 0,581). Les deux critères prédisaient la survie (p < 0,001). En cas de pseudoprogression, l'activité métabolique aide à classifier correctement la réponse.
-
-**Tumeurs neuroendocrines sous PRRT :**
-- Taha et al. (2025) [[10]](#ref-10) : la concordance inter-lecteur était la plus élevée pour PERCIST (κ = 0,921) par rapport à RECIST 1.1 (κ = 0,897) et mRECIST (κ = 0,883), suggérant une meilleure reproductibilité de l'évaluation métabolique.
-
-**CBNPC — prédiction de la réponse pathologique complète :**
-- Li et al. (2025) [[12]](#ref-12) : pour la prédiction de la pCR après immunochimiothérapie néoadjuvante, RECIST 1.1 avait une sensibilité de 10,5 % (spécificité 100 %) contre 73,7 % pour PERCIST (spécificité 94,1 %). Un modèle quantitatif TEP combinant ΔTLR% et SULpeak atteignait une AUC de 0,975.
+:::warning Niveau de preuve
+Aucun essai prospectif randomisé n'a comparé la prise de décision thérapeutique basée sur RECIST vs. PERCIST. Les données actuelles proviennent d'études observationnelles rétrospectives avec des effectifs modestes (30–53 patients). Une méta-analyse poolée [[11]](#ref-11) suggère une discordance globale de 30–40 %, mais l'hétérogénéité des études (pathologies, traitements, protocoles TEP) limite la portée de ces résultats.
+:::
 
 ### 5.4 Avantages et limites
 

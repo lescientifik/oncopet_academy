@@ -5,8 +5,6 @@ description: "Cours comparatif sur les critères RECIST 1.1 (anatomique) et PERC
 authors:
   - name: Dr T. Henry
     role: Médecin nucléaire
-  - name: Claude
-    role: Assistant IA
 ---
 
 # Critères RECIST 1.1 et PERCIST 1.0 : évaluation de la réponse thérapeutique
@@ -54,7 +52,7 @@ Les lésions **non mesurables** comprennent notamment :
 - Lésions < 10 mm
 - Atteinte leptoméningée, ascite, épanchement pleural/péricardique
 - Maladie inflammatoire du sein, lymphangite cutanée ou pulmonaire
-- Métastases osseuses **purement blastiques** (seules les lésions lytiques ou mixtes avec composante tissulaire ≥ 10 mm sont mesurables)
+- Métastases osseuses **purement blastiques** (seules les lésions lytiques ou mixtes avec **composante tissulaire** ≥ 10 mm sont mesurables)
 
 ### 2.2 Sélection des lésions cibles
 
@@ -92,7 +90,7 @@ Toutes les autres lésions (mesurables au-delà des 5, et non mesurables) sont e
 
 | Catégorie | Définition | Référence |
 |-----------|-----------|-----------|
-| **CR** (Complete Response) | Disparition de **toutes** les lésions cibles ; tous les ganglions < 10 mm (petit axe) | — |
+| **CR** (Complete Response) | Disparition de **toutes** les lésions cibles ; tous les ganglions cibles < 10 mm (petit axe). NB : la CR **globale** exige aussi la CR des non-cibles (cf. [section 2.7](#27-réponse-globale)) | — |
 | **PR** (Partial Response) | Diminution ≥ **30 %** de la SoD | vs. **Baseline** |
 | **PD** (Progressive Disease) | Augmentation ≥ **20 %** de la SoD **ET** augmentation absolue ≥ **5 mm** ; OU nouvelles lésions | vs. **Nadir** |
 | **SD** (Stable Disease) | Ne remplit ni les critères de PR ni ceux de PD | Entre les deux |
@@ -132,9 +130,13 @@ Les lésions non cibles sont évaluées **qualitativement** (pas de mesure) :
 
 | Catégorie | Définition |
 |-----------|-----------|
-| **CR** | Disparition de toutes les lésions non cibles ; marqueurs tumoraux normalisés ; tous les ganglions < 10 mm |
-| **Non-CR/Non-PD** | Persistance d'une ou plusieurs lésions non cibles |
+| **CR** | Disparition de toutes les lésions non cibles ; normalisation des marqueurs tumoraux* ; tous les ganglions < 10 mm |
+| **Non-CR/Non-PD** | Persistance d'une ou plusieurs lésions non cibles et/ou marqueurs tumoraux au-dessus de la normale |
 | **PD** | Progression **non équivoque** des lésions non cibles |
+
+:::info *Marqueurs tumoraux dans RECIST 1.1
+Oui, le texte original de RECIST 1.1 (Eisenhauer 2009, Table 2) inclut bien la normalisation des marqueurs tumoraux comme condition de la CR des non-cibles [[3]](#ref-3). Les marqueurs ne peuvent cependant **pas être utilisés seuls** pour évaluer la réponse : si les marqueurs étaient initialement élevés, ils doivent se normaliser pour qu'un patient soit considéré en CR complète lorsque toutes les lésions ont disparu.
+:::
 
 :::warning Progression « non équivoque » des non-cibles
 La progression des lésions non cibles doit représenter une aggravation **substantielle** de la charge tumorale globale, même en présence d'une SD ou PR des lésions cibles. Une augmentation modeste de la taille d'une lésion non cible est **insuffisante**. Le RECIST Working Group suggère comme heuristique une augmentation de volume correspondant à environ 73 % (équivalent à +20 % en diamètre pour une lésion mesurable).
@@ -173,14 +175,14 @@ La réponse globale combine l'évaluation des lésions cibles, non cibles et des
 
 #### Confirmation de la réponse
 
-- **Essais non randomisés** (réponse = critère de jugement principal) : confirmation requise à ≥ **4 semaines**
+- **Essais non randomisés** (réponse = critère de jugement principal) : confirmation requise à ≥ **4 semaines** [[3]](#ref-3) [[13]](#ref-13)
 - **Essais randomisés** : confirmation **non requise** (le bras contrôle sert de référence)
 
 ---
 
 ## 3. PERCIST 1.0 : évaluation métabolique de la réponse
 
-PERCIST 1.0 (*PET Response Criteria In Solid Tumors*) a été proposé par Wahl et al. en 2009 [[4]](#ref-4) pour standardiser l'évaluation quantitative de la réponse métabolique en TEP au [¹⁸F]FDG. Le guide pratique « Practical PERCIST » a été publié en 2016 [[5]](#ref-5) pour clarifier son application.
+PERCIST 1.0 (*PET Response Criteria In Solid Tumors*) a été proposé par Wahl et al. en 2009 [[4]](#ref-4) pour standardiser l'évaluation quantitative de la réponse métabolique en TEP au [¹⁸F]FDG. Le guide pratique « Practical PERCIST » a été publié en 2016 par la même équipe (O, Lodge et Wahl, Johns Hopkins) [[5]](#ref-5) pour clarifier son application.
 
 ### 3.1 Pourquoi une évaluation métabolique ?
 
@@ -188,7 +190,7 @@ Les limites de l'approche anatomique (RECIST) justifient une évaluation métabo
 
 - **Réponse métabolique précède la réponse anatomique** : les modifications du métabolisme glucidique tumoral surviennent souvent **avant** les changements de taille [[4]](#ref-4)
 - **Tumeurs à réponse sans diminution de taille** : certaines tumeurs (GIST, sarcomes, mésothéliomes, hépatocarcinomes) peuvent répondre au traitement par nécrose ou transformation kystique **sans réduction de taille**, ce qui les classe faussement en SD par RECIST [[4]](#ref-4)
-- **Maladie non mesurable** : environ 35 % des patients mCRPC ont une maladie non mesurable par RECIST 1.1 [[7]](#ref-7)
+- **Maladie non mesurable par RECIST** : les métastases osseuses blastiques, les épanchements et les atteintes péritonéales diffuses ne sont pas mesurables en RECIST — la TEP peut néanmoins quantifier leur activité métabolique
 - **Évaluation fonctionnelle** : la TEP mesure l'activité biologique tumorale, pas seulement sa taille
 
 ### 3.2 Prérequis et contrôle qualité
@@ -236,12 +238,17 @@ Le foie sert de **référence interne** pour vérifier la qualité de l'examen e
 - VOI sphérique de **3 cm de diamètre**
 - Placé dans le **lobe droit du foie**, à mi-distance entre le dôme hépatique et le bord inférieur
 - Excluant les voies biliaires centrales et les vaisseaux
-- Mesurer : **SUL moyen** et **écart-type** (2 chiffres significatifs)
+- Mesurer : **SUL moyen** et **écart-type** (2 chiffres significatifs [[5]](#ref-5))
+
+:::tip Outils automatiques
+Les consoles modernes (Siemens syngo.via, GE PETVCAR, Philips IntelliSpace) disposent d'outils de placement **automatique** du VOI hépatique de référence, ce qui standardise et accélère la mesure.
+:::
 
 :::warning Foie pathologique
 Si le foie est envahi par des métastases ou si la mesure hépatique n'est pas fiable, utiliser l'**aorte thoracique descendante** comme alternative :
 - VOI cylindrique de **1 cm de diamètre × 2 cm de long**
 - Au centre de l'aorte thoracique descendante, excluant la paroi
+- Cette mesure alternative est également disponible en automatique sur les consoles modernes
 :::
 
 ### 3.5 Seuil de mesurabilité
@@ -258,16 +265,29 @@ Si la référence aortique est utilisée :
 
 - Les lésions en dessous de ce seuil sont considérées comme **non mesurables** en PERCIST
 - Ce seuil garantit que la fixation tumorale est significativement supérieure au bruit de fond
-- Le critère de mesurabilité ne s'applique qu'au **baseline** : une lésion initialement mesurable qui passe sous le seuil après traitement reflète une réponse, pas une perte de mesurabilité
+- Le critère de mesurabilité ne s'applique qu'au **baseline** : une lésion initialement mesurable qui passe sous le seuil après traitement reflète une réponse, pas une perte de mesurabilité [[5]](#ref-5)
 
-### 3.6 Catégories de réponse
+### 3.6 Sélection de la lésion cible : un concept majeur
+
+:::danger Différence fondamentale avec RECIST
+En **RECIST**, les lésions cibles sont **fixées** au baseline et suivies tout au long du traitement (« une fois cible, toujours cible »).
+
+En **PERCIST**, la lésion cible est la **plus active métaboliquement à chaque évaluation** — ce qui peut correspondre à des **lésions différentes** entre le baseline et le suivi [[5]](#ref-5).
+:::
+
+- PERCIST évalue **une seule lésion cible** : celle avec le **SULpeak le plus élevé** à chaque temps d'évaluation
+- Jusqu'à 5 lésions optionnelles peuvent être suivies (données exploratoires)
+- **La lésion la plus active peut changer** : si la lésion la plus « chaude » au baseline répond bien au traitement, une autre lésion peut devenir la plus active au suivi — c'est cette nouvelle lésion qui sera mesurée
+- Conséquence pratique : le SULpeak de suivi n'est **pas nécessairement mesuré sur la même lésion** que le baseline
+
+### 3.7 Catégories de réponse
 
 | Catégorie | Définition | Référence |
 |-----------|-----------|-----------|
 | **CMR** (Complete Metabolic Response) | Résolution complète de la fixation FDG : SULpeak < SUL moyen hépatique, indiscernable du bruit de fond ; pas de nouvelles lésions | — |
 | **PMR** (Partial Metabolic Response) | Diminution ≥ **30 %** du SULpeak **ET** diminution absolue ≥ **0,8 unité SUL** ; pas de nouvelles lésions ; pas d'augmentation > 30 % des autres lésions | vs. **Baseline** |
 | **SMD** (Stable Metabolic Disease) | Ne remplit ni les critères de PMR ni ceux de PMD | Entre les deux |
-| **PMD** (Progressive Metabolic Disease) | Augmentation ≥ **30 %** du SULpeak **ET** augmentation absolue ≥ **0,8 unité SUL** ; OU nouvelles lésions FDG-avides ; OU augmentation > 75 % de la TLG ; OU augmentation > 30 % de la taille anatomique de la lésion cible | vs. **Nadir** |
+| **PMD** (Progressive Metabolic Disease) | Augmentation ≥ **30 %** du SULpeak **ET** augmentation absolue ≥ **0,8 unité SUL** ; OU nouvelles lésions FDG-avides ; OU augmentation > 75 % de la TLG ; OU augmentation > 30 % de la taille anatomique de la lésion cible | vs. **Baseline** (1ʳᵉ éval.) puis vs. **meilleure réponse** |
 
 :::danger Double critère obligatoire
 Comme pour RECIST, le PERCIST impose un **double critère** pour la PMR et la PMD :
@@ -281,24 +301,16 @@ Ceci évite les faux classements lorsque les valeurs de SUL sont basses (une var
 
 % de variation = [(SULpeak suivi − SULpeak référence) ÷ SULpeak référence] × 100
 
-### 3.7 Sélection de la lésion cible
-
-- PERCIST évalue **une seule lésion cible** : la **plus active métaboliquement** (SULpeak le plus élevé) à chaque temps d'évaluation
-- Jusqu'à 5 lésions optionnelles peuvent être suivies (données exploratoires)
-- **La lésion la plus active peut changer entre le baseline et le suivi** : le lecteur sélectionne à chaque fois la lésion la plus « chaude »
-
-:::info Différence fondamentale avec RECIST
-En RECIST, les lésions cibles sont **fixées** au baseline et suivies tout au long du traitement (« une fois cible, toujours cible »). En PERCIST, la lésion cible est la **plus active à chaque évaluation**, ce qui peut correspondre à des lésions différentes.
-:::
-
 ### 3.8 Concept de nadir en PERCIST
 
-Le nadir en PERCIST est le **SULpeak le plus bas** enregistré au cours du suivi pour la lésion la plus active.
+Le nadir en PERCIST correspond à la **meilleure réponse enregistrée** (SULpeak le plus bas de la lésion la plus active au cours du suivi).
 
 - La **PMR** s'évalue par rapport au **baseline**
-- La **PMD** s'évalue par rapport au **nadir** (SULpeak le plus bas enregistré, qui peut être le baseline)
+- La **PMD** s'évalue par rapport au **baseline** lors de la **première** évaluation, puis par rapport à la **meilleure réponse** (nadir) lors des évaluations suivantes [[4]](#ref-4)
 
-Ce principe est **identique** à RECIST : réponse vs. baseline, progression vs. nadir.
+:::info Précision sur la Table 7 de Wahl 2009
+La Table 7 du PERCIST original précise : *"Progression is judged from best response if being assessed after first scan was performed."* Cela signifie que le concept de nadir s'applique à partir de la deuxième évaluation, une fois qu'une réponse de référence a été documentée.
+:::
 
 ### 3.9 Quand PERCIST défère à RECIST
 
@@ -326,16 +338,18 @@ Cette section synthétise les concepts communs aux deux systèmes, qui sont souv
 
 | | RECIST 1.1 | PERCIST 1.0 |
 |---|---|---|
-| **Définition** | Plus petite SoD enregistrée au cours du suivi (peut être le baseline) | SULpeak le plus bas enregistré au cours du suivi (peut être le baseline) |
-| **Rôle** | Référence pour évaluer la **progression** (PD) | Référence pour évaluer la **progression** (PMD) |
+| **Définition** | Plus petite SoD enregistrée au cours du suivi (peut être le baseline) | SULpeak le plus bas enregistré pour la lésion la plus active (peut être le baseline) |
+| **Rôle** | Référence pour évaluer la **progression** (PD) — dès la 1ʳᵉ évaluation | Référence pour évaluer la **progression** (PMD) — à partir de la 2ᵉ évaluation (1ʳᵉ éval. vs baseline) |
 
 ### 4.3 La règle d'or
 
-:::danger Règle universelle (RECIST et PERCIST)
+:::danger Principe commun (RECIST et PERCIST)
 - **Réponse** = variation par rapport au **BASELINE**
-- **Progression** = variation par rapport au **NADIR**
+- **Progression** = variation par rapport à la **MEILLEURE RÉPONSE** (nadir)
 
 Cette asymétrie est fondamentale : la réponse mesure l'efficacité par rapport à l'état initial, tandis que la progression détecte une aggravation par rapport au meilleur résultat obtenu.
+
+**Nuance PERCIST** : lors de la toute première évaluation, la PMD est jugée par rapport au baseline (puisqu'il n'y a pas encore de « meilleure réponse »). À partir de la deuxième évaluation, c'est la meilleure réponse enregistrée qui sert de référence [[4]](#ref-4).
 :::
 
 ```
@@ -367,11 +381,11 @@ Wahl et al. soulignent que la réponse tumorale en TEP est une **variable contin
 | **Type d'imagerie** | TDM (ou IRM) | TEP au [¹⁸F]FDG |
 | **Ce qui est mesuré** | Taille tumorale (diamètre) | Activité métabolique (SULpeak) |
 | **Paramètre principal** | Somme des diamètres (SoD) | SULpeak (VOI 1 mL, ≈ 1,2 cm) |
-| **Nb lésions cibles** | Max 5 (fixées au baseline) | 1 (la plus active, peut changer) |
+| **Nb lésions cibles** | Max 5 (fixées au baseline, « une fois cible, toujours cible ») | 1 (la **plus active à chaque évaluation**, peut changer entre les examens) |
 | **Seuil de réponse** | ≥ 30 % diminution de SoD | ≥ 30 % diminution de SULpeak ET ≥ 0,8 SUL |
 | **Seuil de progression** | ≥ 20 % augmentation de SoD ET ≥ 5 mm | ≥ 30 % augmentation de SULpeak ET ≥ 0,8 SUL |
 | **Référence pour réponse** | Baseline (SoD initiale) | Baseline (SULpeak initial) |
-| **Référence pour progression** | Nadir (plus petite SoD) | Nadir (plus petit SULpeak) |
+| **Référence pour progression** | Nadir (plus petite SoD enregistrée) | Baseline (1ʳᵉ éval.) puis meilleure réponse (SULpeak le plus bas de la lésion la plus intense) |
 | **Référence interne** | Aucune | Foie (VOI 3 cm) ou aorte |
 | **Nouvelles lésions** | Non équivoques → PD | FDG-avides typiques → PMD |
 | **Tumeurs non avides** | Applicable | Défère à RECIST 1.1 |
@@ -380,7 +394,7 @@ Wahl et al. soulignent que la réponse tumorale en TEP est une **variable contin
 
 ### 5.2 Discordances et leur signification clinique
 
-RECIST et PERCIST sont discordants dans **14 à 63 %** des cas selon les études et les pathologies [[8]](#ref-8) [[9]](#ref-9). Dans une analyse poolée de 268 patients (tumeurs solides diverses), **37,7 %** des patients avaient des réponses discordantes entre RECIST et PERCIST, avec un taux de réponse globale de 35,1 % (RECIST) contre 54,1 % (PERCIST) (p < 0,0001) [[13]](#ref-13). Cette discordance n'est pas un défaut : elle reflète la complémentarité des deux approches.
+RECIST et PERCIST sont discordants dans **14 à 63 %** des cas selon les études et les pathologies [[6]](#ref-6) [[7]](#ref-7). Dans une analyse poolée de 268 patients (tumeurs solides diverses), **37,7 %** des patients avaient des réponses discordantes entre RECIST et PERCIST, avec un taux de réponse globale de 35,1 % (RECIST) contre 54,1 % (PERCIST) (p < 0,0001) [[11]](#ref-11). Cette discordance n'est pas un défaut : elle reflète la complémentarité des deux approches.
 
 #### Patterns de discordance fréquents
 
@@ -405,19 +419,19 @@ Les discordances sont particulièrement fréquentes dans :
 Plusieurs études comparatives ont évalué la valeur pronostique respective de RECIST et PERCIST :
 
 **Cancer bronchique non à petites cellules (CBNPC) :**
-- Yanagawa et al. (2016) [[9]](#ref-9) : RECIST 1.1 et PERCIST 1.0 étaient discordants dans **63 %** des cas (κ = 0,139). Les critères métaboliques (PERCIST et EORTC) prédisaient mieux la survie sans progression que RECIST seul. La PMR selon PERCIST était associée à une survie significativement plus longue que la SMD, alors que la PR selon RECIST n'était pas significativement différente de la SD.
-- Anwar et al. (2015) [[10]](#ref-10) : sur 30 patients métastatiques, la réponse métabolique (PERCIST) était un facteur pronostique **indépendant** de survie globale en analyse multivariée, contrairement à RECIST.
+- Yanagawa et al. (2016) [[7]](#ref-7) : RECIST 1.1 et PERCIST 1.0 étaient discordants dans **63 %** des cas (κ = 0,139). Les critères métaboliques (PERCIST et EORTC) prédisaient mieux la survie sans progression que RECIST seul. La PMR selon PERCIST était associée à une survie significativement plus longue que la SMD, alors que la PR selon RECIST n'était pas significativement différente de la SD.
+- Anwar et al. (2015) [[8]](#ref-8) : sur 30 patients métastatiques, la réponse métabolique (PERCIST) était un facteur pronostique **indépendant** de survie globale en analyse multivariée, contrairement à RECIST.
 - Après 2–3 cycles de chimiothérapie, 9/19 patients avaient une réponse métabolique contre seulement 3/19 une réponse anatomique, illustrant la détection plus précoce par la TEP.
 
 **CBNPC sous immunothérapie :**
-- Seban et al. (2020) [[11]](#ref-11) : concordance faible entre RECIST et PERCIST (κ = 0,346). La réponse métabolique partielle (PMR) conservait une valeur pronostique chez les patients classés PD par les critères radiologiques immunitaires (irRC), suggérant une valeur ajoutée de la TEP.
-- Goldfarb et al. (2019) [[8]](#ref-8) : RECIST et PERCIST concordants dans 85,8 % des cas (κ = 0,581). Les deux critères prédisaient la survie (p < 0,001). En cas de pseudoprogression, l'activité métabolique aide à classifier correctement la réponse.
+- Seban et al. (2020) [[9]](#ref-9) : concordance faible entre RECIST et PERCIST (κ = 0,346). La réponse métabolique partielle (PMR) conservait une valeur pronostique chez les patients classés PD par les critères radiologiques immunitaires (irRC), suggérant une valeur ajoutée de la TEP.
+- Goldfarb et al. (2019) [[6]](#ref-6) : RECIST et PERCIST concordants dans 85,8 % des cas (κ = 0,581). Les deux critères prédisaient la survie (p < 0,001). En cas de pseudoprogression, l'activité métabolique aide à classifier correctement la réponse.
 
 **Tumeurs neuroendocrines sous PRRT :**
-- Taha et al. (2025) [[12]](#ref-12) : la concordance inter-lecteur était la plus élevée pour PERCIST (κ = 0,921) par rapport à RECIST 1.1 (κ = 0,897) et mRECIST (κ = 0,883), suggérant une meilleure reproductibilité de l'évaluation métabolique.
+- Taha et al. (2025) [[10]](#ref-10) : la concordance inter-lecteur était la plus élevée pour PERCIST (κ = 0,921) par rapport à RECIST 1.1 (κ = 0,897) et mRECIST (κ = 0,883), suggérant une meilleure reproductibilité de l'évaluation métabolique.
 
 **CBNPC — prédiction de la réponse pathologique complète :**
-- Li et al. (2025) [[14]](#ref-14) : pour la prédiction de la pCR après immunochimiothérapie néoadjuvante, RECIST 1.1 avait une sensibilité de 10,5 % (spécificité 100 %) contre 73,7 % pour PERCIST (spécificité 94,1 %). Un modèle quantitatif TEP combinant ΔTLR% et SULpeak atteignait une AUC de 0,975.
+- Li et al. (2025) [[12]](#ref-12) : pour la prédiction de la pCR après immunochimiothérapie néoadjuvante, RECIST 1.1 avait une sensibilité de 10,5 % (spécificité 100 %) contre 73,7 % pour PERCIST (spécificité 94,1 %). Un modèle quantitatif TEP combinant ΔTLR% et SULpeak atteignait une AUC de 0,975.
 
 ### 5.4 Avantages et limites
 
@@ -426,8 +440,6 @@ Plusieurs études comparatives ont évalué la valeur pronostique respective de 
 | Avantages | Limites |
 |-----------|---------|
 | Largement validé et universellement adopté | Ne mesure que la taille (pas la viabilité) |
-| Simple et reproductible | Inadapté aux thérapies ciblées (nécrose sans réduction de taille) |
-| Ne nécessite pas de TEP | Pseudoprogression sous immunothérapie |
 | Applicable à toutes les tumeurs solides | Variabilité de mesure inter-observateur (1–3 mm) |
 | Standard réglementaire (FDA, EMA) | Maladie non mesurable (os, effusions, méningite) |
 
@@ -438,8 +450,6 @@ Plusieurs études comparatives ont évalué la valeur pronostique respective de 
 | Détection plus précoce de la réponse | Exige une standardisation stricte du protocole TEP |
 | Évalue la viabilité tumorale, pas seulement la taille | Non applicable aux tumeurs non FDG-avides |
 | Meilleur prédicteur de survie dans certaines pathologies | Moins validé que RECIST (pas de data warehouse > 6 500 patients) |
-| Reproductibilité élevée (ICC = 0,87 avec Auto-PERCIST™) [[6]](#ref-6) | SULpeak nécessite un logiciel compatible |
-| Variable continue (waterfall plots) | Pas encore standard réglementaire universel |
 
 ---
 
@@ -447,7 +457,8 @@ Plusieurs études comparatives ont évalué la valeur pronostique respective de 
 
 :::tip Points clés
 - **RECIST 1.1** évalue la **taille** tumorale (SoD), **PERCIST 1.0** évalue l'**activité métabolique** (SULpeak) — ce sont des approches **complémentaires**, pas concurrentes
-- Les deux systèmes partagent les mêmes principes fondamentaux : **réponse vs. baseline**, **progression vs. nadir**
+- Les deux systèmes partagent le même principe : **réponse vs. baseline**, **progression vs. meilleure réponse**
+- En PERCIST, la lésion cible est la **plus active à chaque évaluation** (peut changer entre examens) ; en RECIST, les cibles sont **fixées** au baseline
 - Le **seuil de réponse** est identique : **≥ 30 %** de diminution dans les deux systèmes
 - Le **seuil de progression** diffère : **≥ 20 %** + 5 mm (RECIST) vs. **≥ 30 %** + 0,8 SUL (PERCIST)
 - Les deux systèmes imposent un **double critère** (relatif ET absolu) pour la progression, évitant les faux positifs sur de petites valeurs
@@ -477,35 +488,26 @@ Plusieurs études comparatives ont évalué la valeur pronostique respective de 
 5. <a id="ref-5"></a>O JH, Lodge MA, Wahl RL. Practical PERCIST: A Simplified Guide to PET Response Criteria in Solid Tumors 1.0. *Radiology*. 2016;280(2):576-584.
    [PubMed](https://pubmed.ncbi.nlm.nih.gov/26909647/)
 
-6. <a id="ref-6"></a>O JH, Lim SJ, Wang H, et al. Quantitation of cancer treatment response by 2-[18F]FDG PET/CT: multi-center assessment of measurement variability using AUTO-PERCIST™. *EJNMMI Res*. 2021;11(1):16.
-   [PubMed](https://pubmed.ncbi.nlm.nih.gov/33580383/)
-
-7. <a id="ref-7"></a>Gafita A, Rauscher I, Fendler WP, et al. Measuring response in metastatic castration-resistant prostate cancer using PSMA PET/CT: comparison of RECIST 1.1, aPCWG3, aPERCIST, PPP, and RECIP 1.0 criteria. *Eur J Nucl Med Mol Imaging*. 2022;49(12):4149-4161.
-   [PubMed](https://pubmed.ncbi.nlm.nih.gov/35773439/)
-
-8. <a id="ref-8"></a>Goldfarb L, Duchemann B, Chouahnia K, et al. Comparison of RECIST, iRECIST, and PERCIST for the Evaluation of Response to PD-1/PD-L1 Blockade Therapy in Patients With Non-Small Cell Lung Cancer. *Clin Nucl Med*. 2019;44(7):535-541.
+6. <a id="ref-6"></a>Goldfarb L, Duchemann B, Chouahnia K, et al. Comparison of RECIST, iRECIST, and PERCIST for the Evaluation of Response to PD-1/PD-L1 Blockade Therapy in Patients With Non-Small Cell Lung Cancer. *Clin Nucl Med*. 2019;44(7):535-541.
    [PubMed](https://pubmed.ncbi.nlm.nih.gov/31021918/)
 
-9. <a id="ref-9"></a>Yanagawa M, Tatsumi M, Miyata T, et al. Comparison of RECIST, EORTC criteria and PERCIST for evaluation of early response to chemotherapy in patients with non-small-cell lung cancer. *Eur J Nucl Med Mol Imaging*. 2016;43(11):1945-1953.
+7. <a id="ref-7"></a>Yanagawa M, Tatsumi M, Miyata T, et al. Comparison of RECIST, EORTC criteria and PERCIST for evaluation of early response to chemotherapy in patients with non-small-cell lung cancer. *Eur J Nucl Med Mol Imaging*. 2016;43(11):1945-1953.
    [PubMed](https://pubmed.ncbi.nlm.nih.gov/27236466/)
 
-10. <a id="ref-10"></a>Anwar H, Sachpekidis C, Engel C, et al. Comparison of metabolic and anatomic response to chemotherapy based on PERCIST and RECIST in patients with advanced stage non-small cell lung cancer. *Asian Pac J Cancer Prev*. 2015;15(22):9557-9563.
+8. <a id="ref-8"></a>Anwar H, Sachpekidis C, Engel C, et al. Comparison of metabolic and anatomic response to chemotherapy based on PERCIST and RECIST in patients with advanced stage non-small cell lung cancer. *Asian Pac J Cancer Prev*. 2015;15(22):9557-9563.
     [PubMed](https://pubmed.ncbi.nlm.nih.gov/25640373/)
 
-11. <a id="ref-11"></a>Seban RD, Mezquita L, Beber A, et al. Comparison Between 18F-FDG PET-Based and CT-Based Criteria in Non-Small Cell Lung Cancer Patients Treated with Nivolumab. *J Nucl Med*. 2020;61(4):564-570.
+9. <a id="ref-9"></a>Seban RD, Mezquita L, Beber A, et al. Comparison Between 18F-FDG PET-Based and CT-Based Criteria in Non-Small Cell Lung Cancer Patients Treated with Nivolumab. *J Nucl Med*. 2020;61(4):564-570.
     [PubMed](https://pubmed.ncbi.nlm.nih.gov/31806768/)
 
-12. <a id="ref-12"></a>Taha A, Tareen K, Goel S, et al. Comparison of RECIST 1.1, mRECIST and PERCIST for assessment of peptide receptor radionuclide therapy treatment response in metastatic neuroendocrine tumors. *Curr Probl Diagn Radiol*. 2025;54(1):72-78.
+10. <a id="ref-10"></a>Taha A, Tareen K, Goel S, et al. Comparison of RECIST 1.1, mRECIST and PERCIST for assessment of peptide receptor radionuclide therapy treatment response in metastatic neuroendocrine tumors. *Curr Probl Diagn Radiol*. 2025;54(1):72-78.
     [PubMed](https://pubmed.ncbi.nlm.nih.gov/39389807/)
 
-13. <a id="ref-13"></a>Min SJ, Jang HJ, Kim JH. Comparison of the RECIST and PERCIST criteria in solid tumors: a pooled analysis and review. *Oncotarget*. 2016;7(19):27848-27854.
+11. <a id="ref-11"></a>Min SJ, Jang HJ, Kim JH. Comparison of the RECIST and PERCIST criteria in solid tumors: a pooled analysis and review. *Oncotarget*. 2016;7(19):27848-27854.
     [PubMed](https://pubmed.ncbi.nlm.nih.gov/27517621/)
 
-14. <a id="ref-14"></a>Li J, Wang H, Chen Y, et al. Quantitative 18F-FDG PET/CT Model for predicting pathological complete response to neoadjuvant immunochemotherapy in NSCLC: comparison with RECIST 1.1 and PERCIST. *Eur J Nucl Med Mol Imaging*. 2025;52(10):3354-3364.
+12. <a id="ref-12"></a>Li J, Wang H, Chen Y, et al. Quantitative 18F-FDG PET/CT Model for predicting pathological complete response to neoadjuvant immunochemotherapy in NSCLC: comparison with RECIST 1.1 and PERCIST. *Eur J Nucl Med Mol Imaging*. 2025;52(10):3354-3364.
     [PubMed](https://pubmed.ncbi.nlm.nih.gov/40418330/)
 
-15. <a id="ref-15"></a>O JH, Wahl RL. PERCIST in Perspective. *Nucl Med Mol Imaging*. 2018;52(1):1-4.
-    [PubMed](https://pubmed.ncbi.nlm.nih.gov/29391906/)
-
-16. <a id="ref-16"></a>Schwartz LH, Litière S, de Vries E, et al. RECIST 1.1 — Update and clarification: From the RECIST committee. *Eur J Cancer*. 2016;62:132-137.
+13. <a id="ref-13"></a>Schwartz LH, Litière S, de Vries E, et al. RECIST 1.1 — Update and clarification: From the RECIST committee. *Eur J Cancer*. 2016;62:132-137.
     [PubMed](https://pubmed.ncbi.nlm.nih.gov/27189322/)

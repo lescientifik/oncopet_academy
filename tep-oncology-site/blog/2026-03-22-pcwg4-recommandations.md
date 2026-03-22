@@ -91,7 +91,7 @@ Le PCWG4 définit la progression sur TEP PSMA (os, ganglions, poumon, en agrég�
 - **Métastases viscérales non pulmonaires** (foie, surrénales, plèvre, etc.) → **1 seule nouvelle lésion** suffit à déclarer la progression
 :::
 
-Cette même règle s'applique à la **scintigraphie osseuse** (évolution du PCWG3 « 2+2 » qui exigeait toujours une confirmation) [[1]](#ref-1). Pour la scintigraphie, le premier examen sous traitement reste le comparateur ; la règle 2+2 du PCWG3 est maintenue pour le premier examen de contrôle.
+Cette même règle s'applique à la **scintigraphie osseuse** (évolution du PCWG3 « 2+2 » qui exigeait systématiquement une confirmation) [[1]](#ref-1). Pour la scintigraphie comme pour la TEP PSMA, l'**examen pré-traitement est le comparateur**. Pour la scintigraphie osseuse, la règle 2+2 du PCWG3 est maintenue pour le premier examen sous traitement ; c'est à partir des examens suivants que la règle des 5 s'applique.
 
 :::danger TEP PSMA précoce : attention au piège
 Les examens TEP PSMA réalisés **avant 8 semaines** après le début du traitement ne doivent **pas être utilisés** pour interpréter la progression [[1]](#ref-1). Certains traitements modulent l'expression du PSMA très tôt dans la période de traitement (dans les 2 premiers mois), ce qui peut confondre l'interprétation. Ce phénomène inclut le **flare PSMA** (augmentation paradoxale transitoire de la fixation), notamment décrit sous ARPI.
@@ -185,7 +185,13 @@ Le PCWG4 maintient le concept de « ne plus bénéficier cliniquement » (**NLCB
 
 ### 4.3 Progression PSA sous ARPI
 
-Le PCWG4 souligne que les ARPI suppriment puissamment le PSA, et que leur utilisation peut entraîner une **progression radiographique sans élévation du PSA** [[1]](#ref-1). La définition de la progression PSA est simplifiée : tout accroissement du PSA par rapport au baseline/nadir, confirmé par une mesure supplémentaire à ≥ 21 jours d'intervalle, avec un minimum d'augmentation absolue de 0,2 ng/mL.
+Le PCWG4 souligne que les ARPI suppriment puissamment le PSA, et que leur utilisation peut entraîner une **progression radiographique sans élévation du PSA** [[1]](#ref-1). La définition de la progression PSA est considérablement simplifiée par rapport au PCWG3 :
+
+| | PCWG3 [[2]](#ref-2) | PCWG4 [[1]](#ref-1) |
+|---|---|---|
+| **Seuil** | Augmentation ≥ 25 % et > 2 ng/mL au-dessus du nadir | Tout accroissement par rapport au baseline/nadir |
+| **Confirmation** | Mesure confirmée à ≥ 3 semaines | Mesure confirmée à ≥ 21 jours |
+| **Minimum absolu** | > 2 ng/mL | 0,2 ng/mL |
 
 ---
 

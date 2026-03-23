@@ -4,7 +4,7 @@ authors: [thenry, claude]
 tags: [veille, recommandations, prostate, PSMA, essais-cliniques]
 ---
 
-Le **Prostate Cancer Working Group 4 (PCWG4)** vient de publier ses recommandations dans le *Journal of Clinical Oncology* [[1]](#ref-1). Successeur du PCWG3 [[2]](#ref-2) qui a guidé la conduite des essais cliniques dans le cancer de prostate résistant à la castration pendant près d'une décennie, le PCWG4 élargit considérablement le cadre en intégrant l'imagerie TEP — en particulier la TEP PSMA — et en étendant ses recommandations aux stades plus précoces de la maladie.
+Le **Prostate Cancer Working Group 4 (PCWG4)** vient de publier ses recommandations dans le *Journal of Clinical Oncology* [[1]](#ref-1). Successeur du PCWG3 [[2]](#ref-2) qui a guidé la conduite des essais cliniques dans le cancer de prostate résistant à la castration pendant près d'une décennie, le PCWG4 élargit considérablement le cadre en intégrant l'imagerie TEP (en particulier la TEP PSMA) et en étendant ses recommandations aux stades plus précoces de la maladie.
 
 Cet article résume les changements majeurs et leurs implications pour la pratique de la médecine nucléaire.
 
@@ -34,21 +34,23 @@ Le PCWG4 propose d'abandonner les termes « sensible à la castration » (CSPC/H
 
 Le PCWG4 recommande également de ne pas utiliser le terme « castration-sensitive » pour les patients naïfs de traitement hormonal, car tous ne répondent pas de manière identique aux traitements hormonaux [[1]](#ref-1).
 
-:::info Correspondance PCWG3 → PCWG4
-| Terminologie PCWG3 | Terminologie PCWG4 |
+:::info Correspondance PCWG3 → PCWG4 (terminologie originale anglaise)
+| PCWG3 | PCWG4 |
 |---|---|
-| PSA ascendant non castré / récidive biochimique | Non métastatique APMN (si pas d'APM antérieure) ou APMS (si réponse à une APM antérieure) |
-| nmCRPC | Non métastatique APMR **ou** métastatique TEP-only APMR |
-| Métastases cliniques, non castré (mHSPC/mCSPC) | Métastatique APMN/S |
-| mCRPC (spécifier lignes de traitement) | Métastatique APMR (spécifier traitements antérieurs) |
+| Rising PSA noncastrate / biochemical recurrence | Nonmetastatic APMN (no previous APM) or APMS (responded to previous APM) |
+| nmCRPC | Nonmetastatic APMR **or** Metastatic (PET only) APMR |
+| Clinical metastases, noncastrate (mHSPC/mCSPC) | Metastatic APMN/S |
+| mCRPC (specify lines of therapy) | Metastatic APMR (specify previous therapies) |
+
+*APM = androgen pathway modulation (le concept : ADT ± ARPI). APMN = naïf d'APM, APMS = sensible, APMR = résistant.*
 :::
 
 Le PCWG4 recommande de **ne plus structurer les essais par « lignes de traitement »** (1re ligne, 2e ligne...) mais de caractériser chaque patient par [[1]](#ref-1) :
 
-1. Son **génotype** (germinal et somatique)
+1. Son **génotype** germinal et somatique (ex. : mutations BRCA2, ATM, MSI-high, TP53 — pour identifier les sous-types actionnables)
 2. La **modalité d'imagerie** ayant défini les métastases (TEP, scanner/IRM/scintigraphie osseuse)
 3. Les **caractéristiques de la maladie** et biomarqueurs de stratification du risque (histologie, IHC)
-4. Les **traitements antérieurs** et leurs résultats (incluant l'exposition vs résistance)
+4. Les **traitements antérieurs** et leurs résultats, classés en 3 catégories : *treatment-naïve* (jamais exposé), *exposed but not resistant*, ou *resistant*
 
 ---
 
@@ -60,22 +62,22 @@ C'est le changement le plus significatif pour la médecine nucléaire. Le PCWG4 
 
 Le PCWG4 établit une distinction claire [[1]](#ref-1) :
 
-- La TEP PSMA est considérée comme **non investigationnelle** pour le staging et la démonstration de la distribution de la maladie chez les patients en rechute
-- La TEP PSMA reste **investigationnelle** pour la détermination de la réponse et de la progression thérapeutique
+- La TEP PSMA est considérée comme **validée** (*noninvestigational*) pour le staging et la cartographie de la maladie chez les patients en rechute (reconnaissance réglementaire acquise)
+- La TEP PSMA reste **en cours de validation** (*investigational*) pour la détermination de la réponse et de la progression thérapeutique (les critères ne sont pas encore établis comme standard)
 
 ### 2.2 Imagerie de base
 
-Le PCWG4 recommande que l'imagerie pré-traitement dans les études de recherche comprenne une **TEP PSMA/TDM** lorsque c'est faisable [[1]](#ref-1). Point important : les **trois modalités d'imagerie** (TEP PSMA, scintigraphie osseuse, et scanner ou IRM) doivent idéalement être obtenues avant l'inclusion et enregistrées indépendamment. Le scanner avec injection de contraste reste indispensable, même si le patient bénéficie d'une TEP PSMA, car le traceur ne remplace pas le contraste intraveineux.
+Le PCWG4 recommande que l'imagerie pré-traitement dans les études de recherche comprenne une **TEP/TDM au PSMA** (*PSMA-PET/CT*) lorsque c'est faisable [[1]](#ref-1). Point important : les **trois modalités d'imagerie** (TEP PSMA, scintigraphie osseuse, et imagerie en coupe [scanner et/ou IRM]) doivent idéalement être obtenues avant l'inclusion et enregistrées indépendamment. Le scanner avec injection de contraste reste indispensable, même si le patient bénéficie d'une TEP PSMA, car le traceur ne remplace pas le contraste intraveineux.
 
 ### 2.3 Critères de progression par site anatomique
 
 #### Progression osseuse
 
-Deux nouvelles lésions ou plus constituent une progression osseuse. Les lésions PSMA peuvent ou non avoir un corrélat anatomique. Pour les lésions préexistantes visibles uniquement en TEP PSMA, les **augmentations de SUV seules ne constituent pas une progression** [[1]](#ref-1). Les nouvelles lésions ne sont pas définies uniquement par un seuil de SUV au-dessus du pool sanguin, mais par la **combinaison** de : intensité de fixation, taille, localisation, et pattern compatible avec un cancer de prostate métastatique (pour assurer une spécificité élevée).
+La progression osseuse est définie par l'apparition de **≥ 2 nouvelles lésions**. Les lésions osseuses, ganglionnaires et pulmonaires sont **comptées ensemble** pour atteindre ce seuil (cf. section 2.4). Ce décompte est soumis aux règles de confirmation détaillées dans la « règle des 5 » ci-dessous. Les lésions PSMA peuvent ou non avoir un corrélat anatomique. Pour les lésions préexistantes visibles uniquement en TEP PSMA, les **augmentations de SUV seules ne constituent pas une progression** [[1]](#ref-1). La caractérisation d'une nouvelle lésion repose sur la **combinaison** de : intensité de fixation, taille, localisation, et aspect compatible avec un cancer de prostate métastatique (pour assurer une spécificité élevée). L'article ne fournit pas de seuils quantitatifs plus précis [[1]](#ref-1).
 
 #### Progression ganglionnaire et pulmonaire
 
-Les métastases ganglionnaires et pulmonaires suivent les mêmes critères que les lésions osseuses [[1]](#ref-1). Les modifications d'avidité lésionnelle ne constituent pas une progression. Les lésions d'os, de ganglions et de poumon sont **agrégées** pour le comptage.
+Les métastases ganglionnaires et pulmonaires suivent les mêmes critères que les lésions osseuses [[1]](#ref-1). Les modifications d'avidité lésionnelle ne constituent pas une progression. Les lésions osseuses, ganglionnaires et pulmonaires sont **comptées ensemble** pour le décompte de la progression.
 
 #### Progression viscérale non pulmonaire (foie, surrénales, etc.)
 
@@ -86,12 +88,12 @@ Pour les métastases hépatiques et les autres sites viscéraux non pulmonaires,
 Le PCWG4 définit la progression sur TEP PSMA (os, ganglions, poumon, en agrégé) selon des critères que l'on peut résumer par une **« règle des 5 »** (terminologie de synthèse, non utilisée dans l'article original) [[1]](#ref-1) :
 
 :::warning Règle des 5 — Critères de progression PCWG4 (os, ganglions, poumon)
-- **≤ 5 nouvelles lésions** → progression définie par **≥ 2 lésions nouvelles confirmées** sur un examen de contrôle réalisé **≥ 6 semaines** après
+- **≤ 5 nouvelles lésions** → progression définie par **≥ 2 lésions nouvelles encore présentes** sur un examen de contrôle réalisé **≥ 6 semaines** après (il suffit de confirmer que les lésions identifiées persistent ; pas besoin de nouvelles lésions supplémentaires)
 - **≥ 6 nouvelles lésions** → progression déclarée **sans confirmation nécessaire**
 - **Métastases viscérales non pulmonaires** (foie, surrénales, plèvre, etc.) → **1 seule nouvelle lésion** suffit à déclarer la progression
 :::
 
-L'examen pré-traitement est toujours le comparateur, quelle que soit la modalité [[1]](#ref-1).
+L'examen **pré-traitement** est toujours le comparateur, quelle que soit la modalité [[1]](#ref-1). Il n'y a pas de concept de « nadir » en imagerie : même si une réponse partielle est observée en cours de traitement, les nouvelles lésions sont toujours comptées par rapport au scan initial pré-thérapeutique. **Exception** : en cas de réponse complète (disparition complète de toutes les lésions sous le pool sanguin), les lésions qui réapparaissent ensuite sont considérées comme de **nouvelles lésions** et comptées comme *recurrent disease* (cf. section 2.7).
 
 :::info Distinction importante : TEP PSMA vs scintigraphie osseuse
 - **TEP PSMA** : les critères ci-dessus s'appliquent **dès le premier examen sous traitement** (≥ 8 semaines)
@@ -99,18 +101,18 @@ L'examen pré-traitement est toujours le comparateur, quelle que soit la modalit
 :::
 
 :::danger TEP PSMA précoce : attention au piège
-Les examens TEP PSMA réalisés **avant 8 semaines** après le début du traitement ne doivent **pas être utilisés** pour interpréter la progression [[1]](#ref-1). Certains traitements modulent l'expression du PSMA très tôt dans la période de traitement (dans les 2 premiers mois), ce qui peut confondre l'interprétation. Ce phénomène inclut le **flare PSMA** (augmentation paradoxale transitoire de la fixation), notamment décrit sous ARPI.
+Les examens TEP PSMA réalisés **avant 8 semaines** après le début du traitement ne doivent **pas être utilisés** pour interpréter la progression [[1]](#ref-1). Certains traitements modulent l'expression du PSMA très tôt dans la période de traitement (dans les 2 premiers mois), ce qui peut confondre l'interprétation. Ce phénomène inclut le **flare PSMA** (augmentation paradoxale transitoire de la fixation), notamment décrit sous ARPI (cf. encadré APM vs ARPI, section 4.3).
 
 À noter : ce seuil de 8 semaines (PCWG4, en dessous duquel l'imagerie ne doit pas être interprétée pour la progression) est distinct de la recommandation SPARC de 12 semaines pour l'évaluation optimale de la réponse [[4]](#ref-4). Les deux recommandations ne sont pas contradictoires.
 :::
 
-Le PCWG4 définit également la **pseudoprogression** : apparition de nouvelles lésions (toute modalité) qui ne sont pas confirmées au contrôle, typiquement chez un patient par ailleurs répondeur [[1]](#ref-1). Ces événements doivent être enregistrés dans les essais cliniques et différenciés de la vraie progression.
+Le PCWG4 définit également la **pseudoprogression** (*imaging-based pseudoprogression*) : apparition de nouvelles lésions (toute modalité) qui **ne sont plus retrouvées sur l'examen de contrôle**, typiquement chez un patient par ailleurs répondeur et sans autre signe de progression [[1]](#ref-1). Ces événements doivent être enregistrés dans les essais cliniques et différenciés de la vraie progression.
 
 ### 2.5 Approche visuelle, pas quantitative
 
 Un point fondamental : le PCWG4 repose sur une **approche visuelle basée sur le comptage de nouvelles lésions**, et non sur des variations de SUV [[1]](#ref-1) :
 
-- Les variations de **SUVmax, SUVmean, ou volume tumoral évalué par SUV** restent investigationnelles et nécessitent une validation et une accréditation clinique supplémentaires
+- Les variations de **SUVmax, SUVmean, ou volume tumoral en TEP** restent investigationnelles et nécessitent une validation et une accréditation clinique supplémentaires
 - L'objectif est de permettre une adoption large et internationale **sans nécessiter de logiciel propriétaire ou de matériel spécialisé**
 - La **collecte des images TEP PSMA sériées** est fortement recommandée dans tous les essais cliniques pour analyse future
 
@@ -125,7 +127,7 @@ Les critères préliminaires du PCWG4 en TEP PSMA ont été testés prospectivem
 Le PCWG4 adopte une position nuancée sur la réponse en TEP PSMA [[1]](#ref-1) :
 
 - **Réponse complète** : la disparition complète de la maladie PSMA-positive est un événement **binaire**, ne nécessite pas de logiciel spécialisé, et **doit être enregistrée**. La résolution est définie par une fixation inférieure au pool sanguin par évaluation visuelle. Les lésions osseuses sclérotiques n'ont pas besoin de se résoudre au scanner pour qu'une RC soit documentée.
-- **Il n'y aura pas de catégorie de réponse partielle ou de maladie stable** en TEP PSMA selon le PCWG4
+- **Il n'y aura pas de catégorie de réponse partielle ou de maladie stable** en TEP PSMA selon le PCWG4. Concrètement, les catégories PCWG4 en TEP PSMA sont : **RC** (réponse complète), **progression** (nouvelles lésions selon les critères ci-dessus), ou **ni RC ni progression** (pas de catégorie intermédiaire définie)
 - La réponse complète en TEP PSMA doit être **enregistrée séparément des lectures anatomiques RECIST** : les anomalies TEP PSMA peuvent se résoudre alors que le patient progresse indépendamment par RECIST
 - Pour la **maladie mesurable visible sur le composant TDM** du TEP/TDM, les critères PCWG3/RECIST modifiés restent applicables [[1]](#ref-1). Le scanner avec injection de contraste reste nécessaire tout au long du suivi, même en présence d'une TEP PSMA
 
@@ -133,11 +135,11 @@ Le PCWG4 adopte une position nuancée sur la réponse en TEP PSMA [[1]](#ref-1) 
 Une réponse complète en TEP PSMA peut indiquer soit la mort des cellules tumorales prostatiques, **soit une dédifférenciation** vers un état biologiquement plus agressif (perte d'expression du PSMA). C'est pourquoi l'enregistrement séparé des lectures TEP PSMA et RECIST est essentiel [[1]](#ref-1). La TEP FDG peut être utilisée dans ces situations spécifiques pour identifier les lésions non avides en PSMA, qu'il s'agisse d'adénocarcinomes dédifférenciés ou de cancers sur le spectre neuroendocrine [[1]](#ref-1).
 :::
 
-Les lésions qui disparaissent complètement sous traitement puis réapparaissent sont considérées comme de **nouvelles lésions** pour la détermination de la progression et doivent être enregistrées séparément comme maladie récurrente [[1]](#ref-1).
+Les lésions qui disparaissent complètement sous traitement puis réapparaissent sont considérées comme de **nouvelles lésions** pour la détermination de la progression et doivent être enregistrées séparément comme maladie récurrente (*recurrent disease*) [[1]](#ref-1). Texte original : *"Lesions that were present at the treatment start, fully resolve on PET during treatment to below blood pool, and then subsequently reappear are considered new lesions for determining progression and should be recorded separately as recurrent disease."*
 
 ### 2.8 Intervalles d'imagerie recommandés
 
-Le PCWG4 propose des intervalles de suivi adaptés au contexte clinique, distinguant TEP PSMA et imagerie conventionnelle (scintigraphie osseuse/scanner/IRM) [[1]](#ref-1) :
+Le PCWG4 propose des intervalles de suivi **dans le cadre des essais cliniques**, distinguant TEP PSMA et imagerie conventionnelle (scintigraphie osseuse/scanner/IRM) [[1]](#ref-1) :
 
 | Contexte | TEP PSMA | Scinti. osseuse / TDM-IRM |
 |---|---|---|
@@ -151,18 +153,18 @@ Le PCWG4 propose des intervalles de suivi adaptés au contexte clinique, disting
 
 ### 3.1 Maladie « TEP-only » et progression à l'inclusion
 
-Un changement majeur du PCWG4 est la reconnaissance de la **maladie « TEP-only »** : des métastases détectables uniquement en TEP PSMA, sans corrélat en imagerie conventionnelle (scanner, IRM, scintigraphie osseuse) [[1]](#ref-1). Des patients auparavant classés comme « non métastatiques » (nmCRPC au sens du PCWG3) sont désormais reclassés comme « métastatiques TEP-only APMR » si une TEP PSMA est réalisée. Ce changement a des implications directes pour l'éligibilité aux essais et les décisions thérapeutiques.
+Un changement majeur du PCWG4 est la reconnaissance de la **maladie « TEP-only »** : des métastases détectables uniquement en TEP PSMA, sans corrélat en imagerie conventionnelle (scanner, IRM, scintigraphie osseuse) [[1]](#ref-1). Des patients auparavant classés comme « non métastatiques » (nmCRPC au sens du PCWG3) sont désormais reclassés comme « métastatiques TEP-only APMR » (*Metastatic [PET only] APMR*) si une TEP PSMA est réalisée. Ce changement a des implications directes pour l'éligibilité aux essais et les décisions thérapeutiques.
 
 Pour la **survie sans métastase (MFS)**, le PCWG4 précise que les lésions isolées détectées uniquement en TEP PSMA doivent idéalement présenter une **corrélation avec une anomalie anatomique** pour garantir une spécificité suffisante, conformément aux définitions de MFS utilisées pour les approbations réglementaires [[1]](#ref-1).
 
-Les critères de progression pour l'inclusion restent basés sur le PSA (biochimique) ou la progression radiographique [[1]](#ref-1). La progression doit être définie par de nouvelles lésions plutôt que par des critères basés sur le SUV, et doit idéalement être comparée à une TEP PSMA antérieure similaire.
+Pour **l'inclusion dans un essai clinique**, les critères de progression (c'est-à-dire la preuve que la maladie progresse, justifiant l'entrée du patient dans l'essai) restent basés sur le PSA (biochimique) ou la progression radiographique [[1]](#ref-1). La progression doit être définie par de nouvelles lésions plutôt que par des critères basés sur le SUV, et doit idéalement être comparée à une TEP PSMA antérieure similaire.
 
 ### 3.2 Caractérisation tissulaire et moléculaire
 
 Le PCWG4 formule des recommandations ambitieuses pour la caractérisation des patients [[1]](#ref-1) :
 
-- **Biopsie** avec biomarqueurs moléculaires, protéomiques ou de pathologie digitale validés pour guider la sélection
-- **Re-biopsie recommandée** (et non plus simplement « à considérer » comme dans le PCWG3) chez les patients progressant en situation APMR, avec caractérisation morphologique et IHC incluant les marqueurs de signalisation AR, de différenciation neuroendocrine et de prolifération
+- **Biopsie** avec biomarqueurs moléculaires, protéomiques ou de pathologie digitale validés pour guider la sélection thérapeutique
+- **Re-biopsie recommandée** (et non plus simplement « à considérer » comme dans le PCWG3) chez les patients progressant en situation APMR (résistant à la modulation androgénique, ex-CRPC), avec caractérisation morphologique et IHC incluant les marqueurs de signalisation AR, de différenciation neuroendocrine et de prolifération
 - **Séquençage panel ou génome entier** (somatique et germinal) pour identifier les sous-types génomiques actionnables (réparation de l'ADN, MSI-high, TP53, BRCA2, SPOP, etc.)
 - **ctDNA et CTC** : collecte sérielle recommandée comme biomarqueurs de réponse
 
@@ -172,7 +174,7 @@ Le PCWG4 identifie quatre biomarqueurs de réponse candidats prioritaires [[1]](
 
 1. **Réponse pathologique** en thérapie néoadjuvante
 2. **Déclin/nadir du PSA** dans des contextes spécifiques
-3. **CTC zéro** (CTC₀) : déclin du nombre de CTC de > 0 à 0 à 13 semaines
+3. **CTC zéro** (CTC₀) : déclin du nombre de cellules tumorales circulantes (CTC) de > 0 à 0 à 13 semaines
 4. **Réponse ctDNA** : déclin de la fraction tumorale ctDNA
 
 Aucun de ces biomarqueurs n'est encore établi comme **substitut de la survie globale** pour l'approbation réglementaire [[1]](#ref-1).
@@ -191,11 +193,18 @@ Le PCWG4 étend ses recommandations sur les endpoints aux stades plus précoces 
 
 ### 4.2 Concept de NLCB (No Longer Clinically Benefiting)
 
-Le PCWG4 maintient le concept de « ne plus bénéficier cliniquement » (**NLCB**) : détérioration clinique (perte de poids liée au cancer, progression douloureuse, détérioration fonctionnelle non liée à la toxicité) qui ne peut être traitée par un traitement local [[1]](#ref-1). Ce principe permet la **poursuite du traitement au-delà de la progression radiographique** si le patient tire un bénéfice global.
+Le PCWG4 maintient le concept **NLCB** (*No Longer Clinically Benefiting*) : un patient est considéré comme « ne bénéficiant plus du traitement » lorsqu'il présente une détérioration clinique attribuable au cancer (perte de poids, douleur progressive, dégradation fonctionnelle non liée à la toxicité du traitement) **et** que cette détérioration ne peut pas être prise en charge par un traitement local ciblé sur un petit nombre de lésions [[1]](#ref-1). En pratique, tant que le critère NLCB n'est pas atteint, le traitement peut être **poursuivi au-delà de la progression radiographique** si le patient tire globalement un bénéfice clinique.
 
 ### 4.3 Progression PSA sous ARPI
 
-Le PCWG4 souligne que les ARPI suppriment puissamment le PSA, et que leur utilisation peut entraîner une **progression radiographique sans élévation du PSA** [[1]](#ref-1). Le PCWG4 propose une définition simplifiée de la progression PSA **dans le cadre d'une modulation de la voie androgénique (APM)**, tout en **conservant les critères PCWG2/3** — les deux définitions doivent être rapportées en parallèle [[1]](#ref-1) :
+Le PCWG4 souligne que les **ARPI** (*androgen receptor pathway inhibitors* : enzalutamide, apalutamide, darolutamide, abiratérone…) suppriment puissamment le PSA, et que leur utilisation peut entraîner une **progression radiographique sans élévation du PSA** [[1]](#ref-1).
+
+:::info APM vs ARPI
+- **APM** (*androgen pathway modulation*) = le concept englobant : toute modulation de la voie androgénique, incluant l'ADT (castration) **et** les ARPI
+- **ARPI** (*androgen receptor pathway inhibitor*) = les médicaments spécifiques ciblant le récepteur aux androgènes
+:::
+
+Le PCWG4 propose une définition simplifiée de la progression PSA **dans le cadre d'une APM**, tout en **conservant les critères PCWG2/3** — les deux définitions doivent être rapportées en parallèle [[1]](#ref-1) :
 
 | | PCWG3 [[2]](#ref-2) | PCWG4 (sous APM) [[1]](#ref-1) |
 |---|---|---|

@@ -1,14 +1,19 @@
 ---
-title: "PCWG4 : nouvelles recommandations pour les essais cliniques dans le cancer de prostate — ce qui change pour l'imagerie TEP"
-authors: [thenry, claude]
-tags: [veille, recommandations, prostate, PSMA, essais-cliniques]
+sidebar_position: 4
+title: "PCWG4 : recommandations pour les essais cliniques dans le cancer de prostate — ce qui change pour l'imagerie TEP"
+description: "Synthèse des recommandations PCWG4 (2026) pour l'intégration de la TEP PSMA dans les essais cliniques du cancer de prostate"
+authors:
+  - name: Dr T. Henry
+    role: Médecin nucléaire
+---
+
+# PCWG4 : recommandations pour les essais cliniques dans le cancer de prostate — ce qui change pour l'imagerie TEP
+
 ---
 
 Le **Prostate Cancer Working Group 4 (PCWG4)** vient de publier ses recommandations dans le *Journal of Clinical Oncology* [[1]](#ref-1). Successeur du PCWG3 [[2]](#ref-2) qui a guidé la conduite des essais cliniques dans le cancer de prostate résistant à la castration pendant près d'une décennie, le PCWG4 élargit considérablement le cadre en intégrant l'imagerie TEP (en particulier la TEP PSMA) et en étendant ses recommandations aux stades plus précoces de la maladie.
 
 Cet article résume les changements majeurs et leurs implications pour la pratique de la médecine nucléaire.
-
-<!-- truncate -->
 
 ## Contexte : du PCWG3 au PCWG4
 

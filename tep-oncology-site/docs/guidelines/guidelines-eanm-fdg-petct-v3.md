@@ -197,7 +197,7 @@ Pour les examens combinant TEP et TDM diagnostique avec injection de produit de 
 | Situation | Recommandation |
 |-----------|---------------|
 | **Grossesse** (TEP indispensable) | Activité ultra-faible + durée d'acquisition prolongée + TDM ultra-basse dose, de préférence sur scanner à grand champ axial |
-| **Allaitement** | Pas d'interruption nécessaire (ICRP). Limiter le contact mère-enfant pendant **4h**. Possibilité de tirer le lait pour les 12h suivantes |
+| **Allaitement** | Pas d'interruption nécessaire (ICRP). Limiter le contact mère-enfant pendant **4h**. Possibilité de tirer le lait et le donner au biberon par un tiers pour les 12h suivant la TEP |
 
 ### 3.7 Suppression de la captation myocardique
 

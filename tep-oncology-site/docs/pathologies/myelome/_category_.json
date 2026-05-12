@@ -1,0 +1,13 @@
+{
+  "label": "Myélome multiple",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "description": "TEP au FDG dans le myélome multiple : interprétation, IMPeTUs, Deauville, réponse métabolique",
+  "link": {
+    "type": "generated-index",
+    "title": "Myélome multiple",
+    "description": "TEP au FDG dans le myélome multiple : interprétation, IMPeTUs, Deauville, réponse métabolique",
+    "slug": "/pathologies/myelome"
+  }
+}

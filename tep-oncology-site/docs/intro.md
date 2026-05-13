@@ -39,6 +39,7 @@ L'objectif est de construire progressivement **une base de connaissances complè
 - **[PSMA-VOL : méthodes de segmentation](./pathologies/prostate/psma-vol-segmentation.md)** : détails techniques sur les méthodes de mesure du volume tumoral PSMA-positif et questions ouvertes autour de la standardisation
 - **[Mismatch FDG+/PSMA-](./pathologies/prostate/mismatch-fdg-psma.md)** : définition, critères VISION vs TheraP, et impact pronostique du mismatch FDG+/PSMA- dans le mCRPC
 - **[Critères IMPeTUs en myélome](./pathologies/myelome/criteres-impetus-tep-myelome.md)** : guide pratique d'interprétation TEP-FDG dans le myélome multiple (grille IMPeTUs, application du Deauville aux lésions osseuses, définition de la réponse métabolique complète selon Zamagni 2020, check-list de compte rendu et pièges)
+- **[Incidentalome surrénalien (ESE 2023)](./pathologies/incidentalome/incidentalome-surrenalien.md)** : définition, épidémiologie et algorithme décisionnel ESE/ENSAT 2023 fondé sur les unités Hounsfield, la taille et l'homogénéité
 
 ### Pratique clinique
 

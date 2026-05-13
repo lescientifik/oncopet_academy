@@ -1,0 +1,13 @@
+{
+  "label": "Incidentalome",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "description": "Incidentalomes découverts en imagerie : caractérisation, conduite à tenir et surveillance",
+  "link": {
+    "type": "generated-index",
+    "title": "Incidentalome",
+    "description": "Incidentalomes découverts en imagerie : caractérisation, conduite à tenir et surveillance",
+    "slug": "/pathologies/incidentalome"
+  }
+}

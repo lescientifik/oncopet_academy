@@ -74,35 +74,52 @@ Le PCWG4 établit une distinction claire [[1]](#ref-1) :
 
 Le PCWG4 recommande que l'imagerie pré-traitement dans les études de recherche comprenne une **TEP/TDM au PSMA** (*PSMA-PET/CT*) lorsque c'est faisable [[1]](#ref-1). Point important : les **trois modalités d'imagerie** (TEP PSMA, scintigraphie osseuse, et imagerie en coupe [scanner et/ou IRM]) doivent idéalement être obtenues avant l'inclusion et enregistrées indépendamment. Le scanner avec injection de contraste reste indispensable, même si le patient bénéficie d'une TEP PSMA, car le traceur ne remplace pas le contraste intraveineux.
 
-### 2.3 Critères de progression par site anatomique
+### 2.3 Critères de progression par site anatomique (TEP PSMA)
 
-#### Progression osseuse
+:::tip Deux notions à ne pas confondre
+Le PCWG4 distingue **deux seuils différents**, et c'est la source la plus fréquente de confusion :
+- Le **seuil de progression** = **≥ 2 nouvelles lésions** (os, ganglions, poumon, comptés en agrégé). C'est le *seul* seuil qui déclare la progression.
+- Le **seuil de confirmation** = **5 vs 6** : il décide seulement s'il faut un examen de contrôle. Ce n'est **pas** un seuil de progression.
 
-La progression osseuse est définie par l'apparition de **≥ 2 nouvelles lésions**. Les lésions osseuses, ganglionnaires et pulmonaires sont **comptées ensemble** pour atteindre ce seuil (cf. section 2.4). Ce décompte est soumis aux règles de confirmation détaillées dans la « règle des 5 » ci-dessous. Les lésions PSMA peuvent ou non avoir un corrélat anatomique. Pour les lésions préexistantes visibles uniquement en TEP PSMA, les **augmentations de SUV seules ne constituent pas une progression** [[1]](#ref-1). La caractérisation d'une nouvelle lésion repose sur la **combinaison** de : intensité de fixation, taille, localisation, et aspect compatible avec un cancer de prostate métastatique (pour assurer une spécificité élevée). L'article ne fournit pas de seuils quantitatifs plus précis [[1]](#ref-1).
+Autrement dit : on est en progression dès **2 lésions** ; le « 5/6 » dit uniquement si cette progression doit être confirmée par un second examen ou non.
+:::
 
-#### Progression ganglionnaire et pulmonaire
+#### Progression osseuse, ganglionnaire et pulmonaire
 
-Les métastases ganglionnaires et pulmonaires suivent les mêmes critères que les lésions osseuses [[1]](#ref-1). Les modifications d'avidité lésionnelle ne constituent pas une progression. Les lésions osseuses, ganglionnaires et pulmonaires sont **comptées ensemble** pour le décompte de la progression.
+La progression est définie par l'apparition de **≥ 2 nouvelles lésions**. Les lésions osseuses, ganglionnaires et pulmonaires sont **comptées ensemble (en agrégé)** pour atteindre ce seuil — les métastases ganglionnaires et pulmonaires suivent exactement les mêmes critères que l'os [[1]](#ref-1). Ce décompte est soumis aux **règles de confirmation** détaillées en section 2.4.
+
+Texte original : *« Two or more new lesions in aggregate (bone, nodes, and pulmonary metastases) will constitute progression but require confirmation unless there are six or more new lesions in which case no confirmation is needed. »*
+
+Les modifications d'avidité lésionnelle (variations de SUV seules) **ne constituent pas une progression** [[1]](#ref-1). La caractérisation d'une nouvelle lésion ne repose pas sur un seuil de SUV mais sur la **combinaison** de : intensité de fixation, taille, localisation, et aspect compatible avec un cancer de prostate métastatique (pour assurer une spécificité élevée). L'article ne fournit pas de seuils quantitatifs plus précis [[1]](#ref-1).
 
 #### Progression viscérale non pulmonaire (foie, surrénales, etc.)
 
-Pour les métastases hépatiques et les autres sites viscéraux non pulmonaires, **une seule nouvelle lésion** par TEP PSMA constitue une progression [[1]](#ref-1) — règle plus stricte que pour les autres sites, reflétant le pronostic péjoratif de ces localisations.
+Pour les métastases hépatiques et les autres sites viscéraux non pulmonaires (surrénales, plèvre, SNC), **une seule nouvelle lésion** par TEP PSMA constitue une progression [[1]](#ref-1) — règle plus stricte que pour les autres sites, reflétant le pronostic péjoratif de ces localisations.
 
-### 2.4 La « règle des 5 » pour la progression
+### 2.4 La « règle des 5 » : confirmation de la progression
 
-Le PCWG4 définit la progression sur TEP PSMA (os, ganglions, poumon, en agrégé) selon des critères que l'on peut résumer par une **« règle des 5 »** (terminologie de synthèse, non utilisée dans l'article original) [[1]](#ref-1) :
+Une fois le seuil de progression atteint (≥ 2 nouvelles lésions), le PCWG4 module l'exigence de **confirmation** selon le volume, ce que l'on peut résumer par une **« règle des 5 »** (terminologie de synthèse, non utilisée dans l'article original) [[1]](#ref-1) :
 
-:::warning Règle des 5 — Critères de progression PCWG4 (os, ganglions, poumon)
-- **≤ 5 nouvelles lésions** → progression définie par **≥ 2 lésions nouvelles encore présentes** sur un examen de contrôle réalisé **≥ 6 semaines** après (il suffit de confirmer que les lésions identifiées persistent ; pas besoin de nouvelles lésions supplémentaires)
-- **≥ 6 nouvelles lésions** → progression déclarée **sans confirmation nécessaire**
+:::warning Règle des 5 — Confirmation de la progression PCWG4 (os, ganglions, poumon en agrégé)
+- **2 à 5 nouvelles lésions** → progression, mais à **confirmer** : il faut retrouver **≥ 2 de ces lésions encore présentes** sur un examen de contrôle réalisé **≥ 6 semaines** après (pas besoin de nouvelles lésions supplémentaires, il suffit que les lésions identifiées persistent)
+- **≥ 6 nouvelles lésions** → progression déclarée **sans confirmation** (risque élevé de détérioration clinique chez ces progresseurs polymétastatiques)
 - **Métastases viscérales non pulmonaires** (foie, surrénales, plèvre, etc.) → **1 seule nouvelle lésion** suffit à déclarer la progression
 :::
 
-L'examen **pré-traitement** est toujours le comparateur, quelle que soit la modalité [[1]](#ref-1). Il n'y a pas de concept de « nadir » en imagerie : même si une réponse partielle est observée en cours de traitement, les nouvelles lésions sont toujours comptées par rapport au scan initial pré-thérapeutique. **Exception** : en cas de réponse complète (disparition complète de toutes les lésions sous le pool sanguin), les lésions qui réapparaissent ensuite sont considérées comme de **nouvelles lésions** et comptées comme *recurrent disease* (cf. section 2.7).
+**Comparateur (TEP PSMA)** : l'examen **pré-traitement** est le comparateur [[1]](#ref-1). Il n'y a pas de concept de « nadir » en imagerie : même si une réponse partielle est observée en cours de traitement, les nouvelles lésions sont toujours comptées par rapport au scan initial pré-thérapeutique. **Exception** : en cas de réponse complète (disparition de toutes les lésions sous le pool sanguin), les lésions qui réapparaissent ensuite sont considérées comme de **nouvelles lésions** et comptées comme *recurrent disease* (cf. section 2.7).
 
-:::info Distinction importante : TEP PSMA vs scintigraphie osseuse
-- **TEP PSMA** : les critères ci-dessus s'appliquent **dès le premier examen sous traitement** (≥ 8 semaines)
-- **Scintigraphie osseuse** : la règle **2+2 du PCWG3** est maintenue pour le **premier examen** sous traitement (≥ 2 nouvelles lésions, confirmation obligatoire). À partir du **deuxième examen**, les critères « ≥ 6 sans confirmation / ≤ 5 avec confirmation » s'appliquent
+:::info Scintigraphie osseuse : la règle 2+2 du PCWG3 reste la base
+Pour la **scintigraphie osseuse**, la « règle des 5 » ci-dessus **ne remplace pas** le PCWG3 — c'est un point important souvent mal compris [[1]](#ref-1) :
+
+- **La règle 2+2 est conservée comme règle de base** : il faut **≥ 2 nouvelles lésions sur chacun des deux premiers examens** sous traitement pour qualifier la progression. Si le 2+2 est rempli, la date de progression est celle du **premier** examen sous traitement ; s'il n'est pas rempli, ce premier examen devient le **nouveau comparateur** (nouvelle baseline).
+- **Seule nouveauté du PCWG4** : lorsque le 2+2 n'est pas rempli, on n'exige **plus systématiquement** un examen de confirmation. Si un examen de restaging montre **≥ 6 nouvelles lésions** (par rapport au premier examen sous traitement), la progression est déclarée **sans confirmation**. Pour **≤ 5 nouvelles lésions**, la confirmation reste **obligatoire**, exactement comme dans le PCWG3 (aucun changement).
+
+**Attention au comparateur** : en scintigraphie, le décompte ≥ 6 se fait **par rapport au premier examen sous traitement** (devenu baseline), et non par rapport au scan pré-traitement comme en TEP PSMA.
+:::
+
+:::info Quand appliquer ces critères : TEP PSMA vs scintigraphie
+- **TEP PSMA** : les critères de la section 2.3-2.4 s'appliquent **dès le premier examen sous traitement** (≥ 8 semaines — cf. encadré ci-dessous), avec le scan pré-traitement comme comparateur. La TEP PSMA étant bien plus spécifique, une confirmation n'est **le plus souvent pas nécessaire**.
+- **Scintigraphie osseuse** : règle **2+2 du PCWG3** sur les deux premiers examens ; la dérogation « ≥ 6 sans confirmation / ≤ 5 avec confirmation » ne s'active que **si le 2+2 n'est pas rempli**, par rapport au premier examen sous traitement.
 :::
 
 :::danger TEP PSMA précoce : attention au piège
@@ -243,7 +260,7 @@ Les deux frameworks sont **complémentaires** : SPARC guide le reporting cliniqu
 :::tip Points clés pour le médecin nucléaire
 - Le **PCWG4** intègre pour la première fois la TEP PSMA dans le cadre formel des essais cliniques du cancer de prostate [[1]](#ref-1)
 - La TEP PSMA est **non investigationnelle pour le staging**, mais **investigationnelle pour la réponse/progression**
-- La **« règle des 5 »** pour os/ganglions/poumon : ≤ 5 nouvelles lésions → confirmation requise (≥ 2 lésions), ≥ 6 → pas de confirmation. Pour les métastases viscérales non pulmonaires : **1 seule lésion** suffit
+- La progression (os/ganglions/poumon en agrégé) est définie dès **≥ 2 nouvelles lésions** ; la **« règle des 5 »** ne fixe que la *confirmation* : 2 à 5 lésions → confirmation requise (≥ 2 lésions persistantes à ≥ 6 semaines), ≥ 6 → pas de confirmation. Pour les métastases viscérales non pulmonaires : **1 seule lésion** suffit. En **scintigraphie osseuse**, la règle **2+2 du PCWG3** reste la base ; le « ≥ 6 sans confirmation / ≤ 5 avec confirmation » n'est qu'une dérogation à l'examen de confirmation
 - Seule la **réponse complète** (disparition de toute maladie PSMA+, fixation < pool sanguin) est définie ; pas de RP ni MS en TEP PSMA
 - **Attention** : une RC PSMA peut aussi refléter une dédifférenciation tumorale (perte d'expression PSMA)
 - **Pas de TEP PSMA < 8 semaines** après le début du traitement pour évaluer la progression (risque de modulation de l'expression PSMA)

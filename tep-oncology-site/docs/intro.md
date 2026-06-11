@@ -44,6 +44,7 @@ L'objectif est de construire progressivement **une base de connaissances complè
 
 - **[Guide de rédaction - Comptes rendus TEP-scan](./pratique/redaction-comptes-rendus-tep.md)** : guide complet pour la rédaction des comptes rendus (critères PERCIST, score de Deauville, bonnes pratiques)
 - **[Critères RECIST 1.1 et PERCIST 1.0](./pratique/criteres-recist-percist.md)** : cours comparatif sur l'évaluation de la réponse thérapeutique — critères anatomiques (RECIST) vs métaboliques (PERCIST), concepts de baseline, nadir, réponse et progression
+- **[TEP-FDG : hyperglycémie vs effet insulinique](./pratique/tep-fdg-hyperglycemie-insuline.md)** : synthèse fondée sur les preuves (EBM) des effets de l'hyperglycémie à jeun et de l'insuline sur la biodistribution du FDG (captation cérébrale, musculaire, hépatique, SUV tumoral) et conduite à tenir selon l'EANM
 
 ### Guidelines & Recommandations
 

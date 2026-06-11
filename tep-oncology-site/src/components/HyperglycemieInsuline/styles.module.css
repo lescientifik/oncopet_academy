@@ -1,0 +1,295 @@
+/* Synthèse EBM : TEP-FDG hyperglycémie vs effet insulinique.
+   Palette alignée sur la charte du site (bleu santé) + support du thème sombre. */
+
+.wrap {
+  --hp-accent: var(--ifm-color-primary);
+  --hp-hyper: #c2410c;
+  --hp-insulin: #7c3aed;
+  --hp-solid: #2e7d5b;
+  --hp-moderate: #b7891b;
+  --hp-weak: #c0504d;
+
+  --hp-card: var(--ifm-background-surface-color);
+  --hp-line: var(--ifm-color-emphasis-200);
+  --hp-row-head: var(--ifm-color-emphasis-100);
+  --hp-cite-bg: var(--ifm-color-emphasis-100);
+  --hp-muted: var(--ifm-color-emphasis-600);
+  --hp-shadow: 0 1px 3px rgba(20, 40, 60, 0.08);
+
+  margin: 0 0 1rem;
+}
+
+[data-theme='dark'] .wrap {
+  --hp-hyper: #f97316;
+  --hp-insulin: #a78bfa;
+  --hp-solid: #43b27a;
+  --hp-moderate: #d4af37;
+  --hp-weak: #e57373;
+  --hp-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.subtitle {
+  color: var(--hp-muted);
+  font-size: 0.92rem;
+  margin: 0 0 1.4rem;
+}
+
+/* Légende des niveaux de preuve */
+.evidenceLegend {
+  background: var(--hp-card);
+  border: 1px solid var(--hp-line);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-bottom: 18px;
+  font-size: 0.8rem;
+  box-shadow: var(--hp-shadow);
+}
+
+.evidenceLegend strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+}
+
+.evBadge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 4px;
+  color: #fff;
+  margin-right: 4px;
+}
+
+.evSolid { background: var(--hp-solid); }
+.evModerate { background: var(--hp-moderate); }
+.evWeak { background: var(--hp-weak); }
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 14px;
+  font-size: 0.82rem;
+}
+
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+/* Tableau */
+.tableScroll {
+  overflow-x: auto;
+  border-radius: 12px;
+  box-shadow: var(--hp-shadow);
+  border: 1px solid var(--hp-line);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--hp-card);
+  min-width: 760px;
+  margin: 0;
+}
+
+.table thead th {
+  text-align: left;
+  padding: 13px 15px;
+  font-size: 0.88rem;
+  color: #fff;
+  vertical-align: top;
+  border: none;
+}
+
+.colParam { background: var(--hp-accent); }
+.colHyper { background: var(--hp-hyper); }
+.colInsulin { background: var(--hp-insulin); }
+
+.mech {
+  display: block;
+  font-weight: 400;
+  font-size: 0.76rem;
+  opacity: 0.92;
+  margin-top: 3px;
+}
+
+/* Accolade « même mécanisme » */
+.braceRow th {
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+
+.braceCell {
+  position: relative;
+  background: transparent;
+  padding: 0 0 6px;
+}
+
+.braceLabel {
+  display: block;
+  text-align: center;
+  color: var(--hp-insulin);
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 8px 12px 6px;
+}
+
+.braceShape {
+  display: block;
+  height: 12px;
+  margin: 0 10px;
+  border: 2px solid var(--hp-insulin);
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.braceShape::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -8px;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 8px;
+  background: var(--hp-insulin);
+}
+
+.table tbody th {
+  text-align: left;
+  padding: 12px 15px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background: var(--hp-row-head);
+  color: var(--ifm-font-color-base);
+  vertical-align: top;
+  border-bottom: 1px solid var(--hp-line);
+}
+
+.table tbody td {
+  padding: 12px 15px;
+  font-size: 0.85rem;
+  border-bottom: 1px solid var(--hp-line);
+  vertical-align: top;
+  color: var(--ifm-font-color-base);
+}
+
+.table tbody tr:last-child td,
+.table tbody tr:last-child th {
+  border-bottom: none;
+}
+
+.arrowUp { color: var(--hp-hyper); font-weight: 700; }
+.arrowUp2 { color: var(--hp-insulin); font-weight: 700; }
+.arrowDown { color: var(--hp-accent); font-weight: 700; }
+
+.ref {
+  display: inline-block;
+  font-size: 0.7rem;
+  background: var(--hp-cite-bg);
+  border: 1px solid var(--hp-line);
+  border-radius: 4px;
+  padding: 1px 5px;
+  margin-top: 4px;
+  margin-right: 3px;
+  color: var(--hp-accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.ref:hover {
+  background: var(--hp-accent);
+  color: #fff;
+}
+
+.evTag {
+  display: inline-block;
+  font-size: 0.64rem;
+  font-weight: 700;
+  padding: 0 5px;
+  border-radius: 3px;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.muted { color: var(--hp-muted); }
+
+.practical td,
+.practical th {
+  background: color-mix(in srgb, var(--hp-accent) 8%, var(--hp-card));
+  font-weight: 500;
+}
+
+/* Bloc citations */
+.cites {
+  margin-top: 30px;
+  background: var(--hp-card);
+  border: 1px solid var(--hp-line);
+  border-radius: 12px;
+  padding: 20px 24px;
+  box-shadow: var(--hp-shadow);
+}
+
+.cites h2 {
+  font-size: 1.05rem;
+  margin: 0 0 6px;
+}
+
+.crit {
+  font-size: 0.82rem;
+  color: var(--hp-muted);
+  margin: 0 0 14px;
+}
+
+.citeItem {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--hp-line);
+  font-size: 0.84rem;
+}
+
+.citeItem:last-child { border-bottom: none; }
+
+.citeItem .tag {
+  display: inline-block;
+  font-weight: 700;
+  color: var(--hp-accent);
+  margin-right: 6px;
+}
+
+.quote {
+  display: block;
+  font-style: italic;
+  color: var(--hp-muted);
+  margin: 6px 0;
+  padding-left: 12px;
+  border-left: 3px solid var(--hp-line);
+}
+
+.citeItem a {
+  color: var(--hp-accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.citeItem a:hover { text-decoration: underline; }
+
+.sourceNote {
+  margin-top: 16px;
+  font-size: 0.78rem;
+  color: var(--hp-muted);
+}
+
+@media (max-width: 600px) {
+  .cites { padding: 16px; }
+}
